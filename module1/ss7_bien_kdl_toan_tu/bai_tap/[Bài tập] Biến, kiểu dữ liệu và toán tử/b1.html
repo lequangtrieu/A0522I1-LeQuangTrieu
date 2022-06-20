@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>bai 1</h1>
+    <script>
+        let dl;
+        let dh;
+        let ds;
+       
+        dl = parseInt ( prompt ('nhap diem li'));
+        dh = parseInt ( prompt ('nhap diem hoa'));
+        ds = parseInt ( prompt ('nhap diem sinh'));
+        
+        let diem = ((dl + dh + ds) / 3) ;
+        document.write ('diem trung binh la: ' + diem);
+
+    </script>
+
+    <h1>bai 2 </h1>
+
+    <script>
+        let degreeC;
+        degreeC = parseInt ( prompt ('nhap nhiet do hien tai'))
+
+        let degreeF = 1.8 * degreeC +  32;
+        document.write ('degree F la: ' + degreeF);
+    </script>
+
+    <h1> bai 3</h1>
+    
+    <script>
+        const pi = 3.14;
+        let R;
+        R = parseInt ( prompt ('nhap ban kinh hinh tron: ') );
+
+        let S = R**2 * pi;
+        let C = R*2 * pi;
+
+        document.write ( 'dien tich hinh tron la: ' + S);
+        document.write ( ' chu vi hinh tron la: ' + C);
+
+
+    </script>
+</body>
+</html>
