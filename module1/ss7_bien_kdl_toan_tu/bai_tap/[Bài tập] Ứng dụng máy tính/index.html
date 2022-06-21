@@ -1,0 +1,50 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body> 
+    <h1 style="color:blue; text-align:center;">Caculator</h1> <br> <br>
+
+    <input id="v1" type="number">
+    <input id="v2" type="number"> <br> <br>
+
+    <button onclick="add()" > Addition(+) </button>
+    <button onclick="sub()"> Subtraction(-) </button>
+    <button onclick="mul()"> Multiplication(X) </button>
+    <button onclick="div()"> Division(/) </button>
+
+    <script>
+        function add() {
+            let v1 = parseInt(document.getElementById("v1").value);
+            let v2 = parseInt(document.getElementById("v2").value);
+            let r1 = parseInt (v1 + v2);
+            document.write('Result Addition: ' + r1)
+        }
+
+        function sub() {
+            let v1 = parseInt(document.getElementById("v1").value);
+            let v2 = parseInt(document.getElementById("v2").value);
+            let r2 = parseInt (v1 - v2);
+            document.write('Result Addition: ' + r2)
+        }
+
+        function mul() {
+            let v1 = parseInt(document.getElementById("v1").value);
+            let v2 = parseInt(document.getElementById("v2").value);
+            let r3 = parseInt (v1 * v2);
+            document.write('Result Addition: ' + r3)
+        }
+
+        function div() {
+            let v1 = parseInt(document.getElementById("v1").value);
+            let v2 = parseInt(document.getElementById("v2").value);
+            let r4 = parseInt (v1 / v2);
+            document.write('Result Addition: ' + r4)
+        }
+
+        
+    </script>
+    
+</body>
+</html>
