@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var username = prompt('enter your account');
+        var pass = prompt('enter your password');
+
+        if (username == 'Admin') {
+            if(pass == 'TheMaster') {document.write('Welcome');
+            } else { if(pass == null) {document.write('Canceled');}
+                     else {document.write('Wrong password');}
+        }
+
+        } else {
+            if(username == null) {
+                document.write('Canceled');
+            } else {
+                document.write('I do not know you');
+            }
+        }
+        
+
+    </script>
+    
+</body>
+</html>
