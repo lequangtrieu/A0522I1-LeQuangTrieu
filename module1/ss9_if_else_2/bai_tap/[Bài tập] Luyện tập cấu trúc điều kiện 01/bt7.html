@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>  
+        let minutes = parseInt(prompt('enter the minutes when phoning this month: '));
+        
+        if (minutes <= 50) {
+            alert('money of phoning of this month is: ' + (25000 + 600 * minutes));
+        } else if (minutes <= 200) {
+            alert('money of phoning of this month is: ' + (25000 + 600 * 50 + 400 * (minutes - 50) ));
+        } else {
+            alert('money of phoning of this month is: ' + (25000 + 600 * 50 + 400 * 150 + 200 * (minutes - 200)));
+        }
+        
+
+    </script>
+    
+</body>
+</html>
