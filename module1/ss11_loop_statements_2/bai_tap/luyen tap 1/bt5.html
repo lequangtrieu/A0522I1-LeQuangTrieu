@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      let n1 = 0;
+      let n2 = 1;
+      let next;
+      let sum = 0;
+    
+      for (let i = 1; i < 20; i++) {
+        next = n1 + n2;
+        sum += next;
+        n1 = n2;
+        n2 = next;
+        
+      } document.write('tong 20 so dau tien la: ' + sum);
+    </script>
+    
+</body>
+</html>

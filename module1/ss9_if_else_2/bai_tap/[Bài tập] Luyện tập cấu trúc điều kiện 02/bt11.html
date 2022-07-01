@@ -4,6 +4,25 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+        let salary = parseInt(prompt('enter your salary: '));
+        let a = 0.05;
+
+        if (salary <= 5000000) {
+            alert('thue thu nhap cua nguoi nay la: ' + salary * a);
+        } else if (salary <= 10000000) {
+            alert('thue thu nhap cua nguoi nay la: ' + salary * (2 * a));
+        } else if (salary <= 20000000) {
+            alert('thue thu nhap cua nguoi nay la: ' + salary * (3 * a));
+        } else if (salary <= 35000000) {
+            alert('thue thu nhap cua nguoi nay la: ' + salary * (4 * a));
+        } else if (salary <= 80000000) {
+            alert('thue thu nhap cua nguoi nay la: ' + salary * (5 * a));
+        } else {
+            alert('thue thu nhap cua nguoi nay la: ' + salary * (6 * a));
+        }
+
+    </script>
     
 </body>
 </html>
