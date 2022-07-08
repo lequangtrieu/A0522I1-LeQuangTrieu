@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="color:blue;">Từ điển Anh Việt</h1>
+      
+        <input type="text" id="txt">
+        <button onclick="abc()">Search</button>
+
+        <script>
+        let en = ['cat','dog', 'bird', 'fish'];
+        let vn = ['mèo', 'chó', 'chim', 'cá'];
+       
+        function abc() {
+            let flag = false;
+            let word = document.getElementById("txt").value;
+            
+            let index;
+            for (let i = 0; i < en.length ; i++) {
+                if (word == en[i]) {
+                    flag = true;
+                    index = i;
+                }
+            } if (flag) {
+                alert(vn[index]);
+            } else {
+                alert('that word is dont exist in dictionary');
+            }
+
+            }   
+           
+        
+        
+    </script>
+</body>
+</html>

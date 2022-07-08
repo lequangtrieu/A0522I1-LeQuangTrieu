@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2>enter a number</h2>
+    <input type="text" id="num">
+    <button onclick="check()">Check</button>
+    <script>
+        let numbers = [4, 6,-15, 16, -3, 24, -19, 34, 48, -5, -17, 38];
+        
+        function check() {
+            let flag;
+            let a = parseInt( document.getElementById('num').value);
+           
+            // true
+
+            
+        for (let i = 0; i < numbers.length; i++) {
+            if ( a == numbers[i]) {
+                flag = true;
+            }
+        }
+        if (flag) {
+            alert('num is in the array');
+        } else {
+            alert(' num is not in the array');
+        }
+
+        }
+       
+   
+
+    </script>
+    
+</body>
+</html>

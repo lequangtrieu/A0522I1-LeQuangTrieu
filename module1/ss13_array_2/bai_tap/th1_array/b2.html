@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers = [4, 6,15, 16, 3, 24, 19, 34, 11]
+        let max = numbers[0];
+        let index = 0;
+
+        for(let i = 1; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+                max = numbers[i];
+                index = i;
+            }
+        }
+        document.write('max is: ' + max);
+        document.write('<br>')
+        document.write('position:' + index);
+               
+        
+    </script>
+    
+</body>
+</html>

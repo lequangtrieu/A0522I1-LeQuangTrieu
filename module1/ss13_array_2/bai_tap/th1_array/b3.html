@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers = [4, 6,15, 16, 3, 24, 19, 34, 11]
+        let max = numbers[0];
+        let index = 0;
+        let sum = 4;
+        let average;
+        
+        for(let i = 1; i < numbers.length; i++) {
+            sum += numbers[i];
+            if (numbers[i] > max) {
+                max = numbers[i];
+                index = i;
+            }
+        } average = sum / numbers.length;
+        document.write('max is: ' + max);
+        document.write('<br>')
+        document.write('position:' + index);
+        document.write('<br>')
+        document.write('average is: '+ average );
+                       
+        
+    </script>
+    
+</body>
+</html>

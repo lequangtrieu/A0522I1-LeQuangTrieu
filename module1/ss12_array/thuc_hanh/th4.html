@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let x = [
+            5, 8, 15, 2, 4, 26, 19, 22
+        ]
+        let max = x[0];
+        let index = 0;
+
+        for (let i = 1; i < x.length; i++) {
+            if (x[i] > max) {
+                max = x[i];
+                index = i
+            } 
+        } document.write('max is ' + max + ' at posision ' + index);
+
+    </script>
+    
+</body>
+</html>

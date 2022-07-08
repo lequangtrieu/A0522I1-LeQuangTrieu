@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numbers = [4, 6,-15, 16, -3, 24, -19, 34, 48, -5, -17, 38];
+        let output = '';
+        let count = 0;
+        for (i = 0; i  < numbers.length; i++) {
+            if (numbers[i] < 0) {
+                count++; 
+                output += numbers[i] + '<br>';
+            }
+        } 
+        alert('số các số nguyên âm là: ' + count);
+        document.write(output);
+        
+    </script>
+    
+</body>
+</html>
