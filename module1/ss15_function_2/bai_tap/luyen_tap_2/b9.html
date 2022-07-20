@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = ['a', 'b', 'c', 1, 2, 3, 'x', 'y', 'z', 4, 5, 6, 2, 4, 'a', 2, 8, 2, 10];
+        let b = prompt('enter something: ');
+
+        function check() {
+            let count = 0;
+            for (let i = 0; i < a.length; i++) {
+                if (b == a[i]) {
+                    count++;
+                    
+                } 
+            } 
+            if (count > 0) {
+                alert('count of appear of characters: ' + count );
+            } else {
+                    alert('-1');
+                } 
+        }
+        check();
+    </script>
+</body>
+</html>

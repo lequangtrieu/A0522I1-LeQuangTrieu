@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    // let y = prompt("Enter number 1");
+    // function Square(x) {
+    //     return x*x;
+    // }
+    // let rsOfA = Square(y);
+    // document.write("Binh phuong so vua nhap = "+ rsOfA+"<br>");
+    // function AreaOfCircle(r) {
+    //     return Math.PI *r*r;
+    // }
+    // let Iradius = +prompt("Enter radius");
+    // function PeriMeterOfCircle(r) {
+    //     return Math.PI*2*r;
+    // }
+    // document.write("AreaOfCircle = "+ AreaOfCircle(Iradius)+"<br>");
+    // document.write("PeriMeterOfCircle = "+ PeriMeterOfCircle(Iradius)+"<br>");
+    // function giaithua(x) {
+    //     let rs =1;
+    //     for(let i=1;i<=x;i++){
+    //         rs*=i;
+    //     }
+    //     return rs;
+    // }
+    // let number = +prompt("Enter number");
+    // document.write("Giai thua cua so vua nhap = "+ giaithua(number)+"<br>");
+    // let char = prompt("Enter char x");
+    // function CheckNumber(a) {
+    //     return !isNaN(a);
+    // }
+    // if(CheckNumber(char)){
+    //     alert("Char is Number");
+    // }
+    // else{
+    //     alert("char is not number");
+    // }
+
+    // function min(a,b,c) {
+    //     if(a<b){
+    //         if(a<c){
+    //             return a;
+    //         }
+    //         else{
+    //             return c;
+    //         }
+    //     }
+    //     else{
+    //         if(b<c){
+    //             return b;
+    //         }
+    //         else{
+    //             return c;
+    //         }
+    //     }
+    // }
+    // let a = +prompt("Enter a");
+    // let b = +prompt("Enter b:");
+    // let c = +prompt("Enter c:");
+    // document.write("Min number is "+ min(a,b,c));
+    // function checkPositive(a) {
+    //     return a>0;
+    // }
+    // let number1 = +prompt("Enter number");
+    // if(checkPositive(number1)){
+    //     alert("is a positive number");
+    // }
+    // else{
+    //     alert("is a negative number");
+    // }
+    // function swap(a,b) {
+    //     let c =a;
+    //     a=b;
+    //     b =c;
+    // }
+    // let s = +prompt("Enter number x");
+    // let q = +prompt("Enter number y");
+    // swap(s,q);
+    // alert("s = "+s+"q = "+q);
+    // let arr = [2,4,1,5,8,13,24,76,53,15];
+    // function DaoNguoc(arr) {
+    //     let count = arr.length -1;
+    //     for(let i=0;i<arr.length;i++){
+    //         if(i<count){
+    //             let tmp = arr[i];
+    //             arr[i] = arr[count];
+    //             arr[count] = tmp;
+    //         }
+    //     }
+    // }
+    // DaoNguoc(arr);
+    // document.write("<br> Mang sau khi dao nguoc "+ arr+"<br>");
+    let String = ['e','q','t','1','2','a','o','p'];
+    let charSearch = prompt("Enter char need search");
+    function SearchChar(a,x) {
+        let count =0;
+        for(let i=0;i<a.length;i++){
+            if(a[i]==x){
+                count ++;
+            }
+        }
+        if(count ==0){
+            return -1;
+        }
+        else{
+            return count;
+        }
+    }
+    if(SearchChar(String,charSearch)){
+        alert("ki tu xuat hien")
+    }
+    else{
+        alert("char is not in array");
+    }
+</script>
+</body>
+</html>

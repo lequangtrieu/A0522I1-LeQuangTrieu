@@ -1,0 +1,18 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <button  id="number_increase"onclick="increase(value)">0</button>
+    <script>
+        function increase(a) {
+        a++;
+        document.getElementById("number_increase").value = a;
+        document.getElementById("number_increase").innerHTML = a;
+    }
+    increase(a);
+    </script>
+    
+</body>
+</html>

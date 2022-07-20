@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = parseInt(prompt('enter a number: '));
+        let b = parseInt(prompt('enter a number: '));
+        let c = parseInt(prompt('enter a number: '));
+
+        function check() {
+            let min;
+            if (a < b) {
+                if (a < c) {
+                    min = a;
+                } else {
+                    min = c;
+                }
+            } else if (b < c) {
+                min = b;
+            } else {
+                min = c;
+            }
+            return min;
+        }
+        alert(check());
+
+    </script>
+    
+</body>
+</html>
