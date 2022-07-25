@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<!-- CRUD
+Create
+Read
+Update
+Delete -->
+
+<button onclick="create()">Thêm mới sản phẩm</button>
+<p id="display"></p>
+
+</body>
+
+
+<script>
+    // Tạo class điện thoại có 3 thuộc tính tên, giá , màu sắc.
+    // Phone, Student, DienThoai
+
+
+    class Phone {
+        constructor(name, price, color) {
+            this.name = name;
+            this.price = price;
+            this.color = color;
+        }
+
+        setName(newName){
+            this.name = newName;
+        }
+
+        setPrice(newPrice){
+            this.price = newPrice;
+        }
+
+        setColor(newColor){
+            this.color = newColor;
+        }
+
+        getName(){
+            return this.name;
+        }
+
+        getPrice(){
+            return this.price;
+        }
+
+        getColor(){
+            return this.color;
+        }
+    }
+
+    let nokia = new Phone("Nokia",5000000,"Black");
+    let iphone = new Phone("Iphone",35000000,"Black");
+    let array = [nokia,iphone]; 
+
+
+    function display(array) {
+        let str = "<table border=\"1px\">\n" +
+            "  <tr>\n" +
+            "      <th>Tên</th>\n" +
+            "      <th>Giá</th>\n" +
+            "      <th>Màu</th>\n" +
+            "      <th>Thao Tác</th>\n" +
+            "  </tr>";
+        for (let i = 0; i < array.length ; i++) {
+            str += "<tr>" +
+                    "<td>"+ array[i].getName()+"</td>"+
+                    "<td>"+ array[i].getPrice()+"</td>"+
+                    "<td>"+ array[i].getColor()+"</td>"+
+                    "<td>"+
+                    "<button onclick='edit("+i+")'>Sửa</button>"+
+                    "<button onclick='remove("+i+")'>Xóa</button>"+
+                "</td>"+
+                "</tr>"
+        }
+        str += "</table>";
+        document.getElementById("display").innerHTML = str;
+    }
+
+    display(array);
+
+
+    function create() {
+        let newName = prompt("Nhập tên");
+        let newPrice = prompt("Nhập giá");
+        let newColor = prompt("Nhập màu");
+        let newPhone = new Phone(newName,newPrice,newColor);
+        array.push(newPhone);
+        alert("Thêm mới thành công");
+        display(array);
+    }
+
+    function edit(value) {
+        let newName = prompt("Nhập tên");
+        let newPrice = prompt("Nhập giá");
+        let newColor = prompt("Nhập màu");
+        let newPhone = new Phone(newName,newPrice,newColor);
+        array[value]= newPhone;
+        alert("Sửa thành công");
+        display(array);
+    }
+
+    function remove(value) {
+        let abc = confirm("Bạn có muốn xóa không");
+        if(abc){
+            array.splice(value,1);
+            alert("xóa thành công");
+        }
+        display(array);
+    }
+</script>
+</html>

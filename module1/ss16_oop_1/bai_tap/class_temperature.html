@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        class Temperature {
+            constructor(degreeC) {
+                this.degreeC = degreeC;
+            }
+            getDegreeC() {
+                return this.degreeC;
+            }
+
+            getDegreeF() {
+                return 1,8 * degreeC + 32;
+            }
+
+            getDegreeK() {
+                return degreeC + 273.15;
+            }
+
+        }
+
+        let temperature = new Temperature(25);
+        let degreeC = temperature.getDegreeC();
+        let degreeF = temperature.getDegreeF();
+        let degreeK = temperature.getDegreeK();
+
+        document.write('degreeC is: ' + degreeC);
+        document.write('<br>');
+        document.write('degreeF is: ' + degreeF);
+        document.write('<br>');
+        document.write('degreeK is: ' + degreeK);
+        document.write('<br>');
+
+    </script>
+    
+</body>
+</html>
