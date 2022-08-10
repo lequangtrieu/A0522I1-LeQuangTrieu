@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+       let a = [5,3,2,1,4];
+       let b = [1,2,3,4,5,6,7,2,7,2,10];
+       let c = a.length > b.length ? a.length : b.length;
+       
+       let d = [];
+       
+
+      for(let i = 0; i < c; i++) {
+         if (a.includes(b[i])) {
+            console.log('true');
+         } else {
+            d.push(b[i]);
+         }
+      }
+
+       console.log(d);
+
+
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>[BT]hien thi 20 so nguyen to dau tien</title>
+</head>
+<body>
+    <script>
+            let n = prompt('enter number: ');
+            
+            document.write("1 <br>")
+
+            for (let a = 3; a < n; a++) {
+                let flag = true;
+                
+                for (let i=2; i<a; i++){
+                    if (a%i==0){
+                        flag=false;
+                        break;
+                    }
+                }
+                if(flag == false){
+                    document.write(a +"<br>")
+                    
+                }
+            }
+    </script>
+</body>
+</html>

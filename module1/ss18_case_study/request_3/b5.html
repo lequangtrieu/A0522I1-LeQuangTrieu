@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let menu = 'order something \n' +
+                    '1. cafe \n' +
+                    '2. orange juice \n' +
+                    '3. carrot juice \n' +
+                    '4. tomato juice \n' +
+                    '5. water \n' +
+                    '6. coconut \n' +
+                    '7. QUIT \n' ;
+
+        let choose;
+        let total;
+
+        do {
+            choose = parseInt(prompt(menu));
+            let amount = 0;
+            let price = 0;
+            switch (choose) {
+                case 1: 
+                    price = 10;
+                    break;
+                case 2: 
+                    price = 15;
+                    break;
+                case 3: 
+                    price = 17;
+                    break;
+                case 4: 
+                    price = 19;
+                    break;
+                case 5: 
+                    price = 22;
+                    break;
+                case 6: 
+                    price = 24;
+                    break;
+                case 7:
+                    continue;
+            }
+            
+            amount = parseInt(prompt('enter amount of juice'));
+            total += amount * price;
+        } while (choose !== 7);
+
+        alert('total is: ' + total);
+
+    </script>
+    
+</body>
+</html>

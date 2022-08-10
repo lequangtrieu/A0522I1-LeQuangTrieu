@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4</title>
+</head>
+<body>
+    <script>
+        let count=0;
+        let a = [];
+        let n = parseInt(prompt("Nhap so phan tu cua mang: "));
+        for(let i=0; i<n; i++){
+            a[i] = prompt("Nhap phan tu cua mang: ");
+            if (a[i]!=parseInt(a[i])){
+                count++
+            }
+        }
+        alert("So tu cua mang la: " +count);
+    </script>
+</body>
+</html>

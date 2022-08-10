@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4</title>
+</head>
+<body>
+    <h2 id="result"></h2>
+    <script>
+        let a = prompt("Nhap so: ");
+        let arr = a.split("");
+        for (let i=0; i<arr.length; i++) {
+            switch (a[i]) {
+                case "1":
+                    document.getElementById("result").innerHTML += " một ";
+                    break;
+                case "2":
+                    document.getElementById("result").innerHTML += " hai ";
+                    break;
+                case "3":
+                    document.getElementById("result").innerHTML += " ba ";
+                    break;
+                case "4":
+                    document.getElementById("result").innerHTML += " bốn ";
+                    break;
+                case "5":
+                    document.getElementById("result").innerHTML += " năm ";
+                    break;
+                case "6":
+                    document.getElementById("result").innerHTML += " sáu ";
+                    break;
+                case "7":
+                    document.getElementById("result").innerHTML += " bảy ";
+                    break;
+                case "8":
+                    document.getElementById("result").innerHTML += " tám ";
+                    break;
+                case "9":
+                    document.getElementById("result").innerHTML += " chín ";
+                    break;
+                case "0":
+                    document.getElementById("result").innerHTML += " không ";
+                    break;
+                    default: {
+                        alert("Gia tri khong hop le: ");
+                }
+            }
+        }
+    </script>
+</body>
+</html>

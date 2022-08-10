@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="color:blue; text-align:center;">Show tax and salary</h2>
+    <br>
+    <input type="text" id="income" >
+    <button onclick="count()" >Show answer</button>
+
+    <script>
+        let tax;
+        function count() {
+            let income = document.getElementById('income').value;
+            if (income <= 7000000) {
+                tax = income * 0.05;
+            } else if (income <= 15000000) {
+                tax = income * 0.1;
+            } else {
+                tax = income * 0.2;
+            } 
+            let salary = income - tax;
+
+            alert('tax is: ' + tax + ' ; ' + 'salary is: ' + salary);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Check word</h2> <br>
+    <p>Enter a word</p>
+    <input type="text" id="check">    
+    <button onclick="check()">Check</button>
+</body>
+
+<script>
+    let flag;
+    function check() {
+        let word = document.getElementById('check').value;
+        let vowel = ['u', 'e', 'o', 'a', 'i', 'U', 'E', 'O', 'A', 'I'];
+        for (let i = 0; i < vowel.length; i++) {
+            if (word == vowel[i]) {
+                flag = true;
+            } 
+        }
+        if (flag) {
+            alert('VOWEL');
+        } else {
+            alert('BEING NOT THE VOWEL');
+        }
+    }
+</script>
+</html>

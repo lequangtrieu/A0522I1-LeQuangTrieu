@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a = [];
+        let n = parseInt(prompt("Nhap do dai mang: "));
+        for (let i=0; i<n; i++) {
+            a[i]= parseInt(prompt("Nhap gia tri thu " +(i+1)+" cua mang:"))
+        }
+        console.log(a);
+        
+        let sum = 0;
+
+        let b = [];
+        for (let j = 0; j < n; j++) {
+            
+            sum += a[j];
+            b[j] = sum;
+            
+        }
+        console.log(b);
+        
+
+    </script>
+    
+</body>
+</html>

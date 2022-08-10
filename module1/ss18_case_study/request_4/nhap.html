@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2</title>
+</head>
+<body>
+<h2 id="result"></h2>
+    <script>
+        let count = 1;
+        let arr=[];
+        let n = parseInt(prompt("Nhap do dai mang: "))
+        for (let i=0; i<n; i++){
+            arr[i] = parseInt(prompt("Nhap gia tri mang: "))
+        }
+        arr.sort(function (a,b) {
+            return a-b;
+        })
+        document.getElementById("result").innerHTML = arr;
+        for (let i=0; i<n; i++){
+            if (arr[i]==arr[i+1]){
+                count += 1;
+            } else {
+                document.getElementById("result").innerHTML += "<br>" + arr[i] + " xuat hien " + count + " lan";
+                count = 1;
+            }
+        }
+    </script>
+</body>
+</html>
