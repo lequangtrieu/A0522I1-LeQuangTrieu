@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let arr = [];
+    let n = parseInt(prompt('enter the length of array (less than 50): '));
+
+    if(n < 50) {
+        for(let i = 0; i < n; i++) {
+            arr[i] = parseInt(prompt('enter a number: '));
+        } 
+    } else {
+        while(n > 50) {
+            alert('please enter the number less than 51');
+            n = parseInt(prompt('enter the length of array (less than 50): '));
+        } {
+            for(let i = 0; i < n; i++) {
+            arr[i] = parseInt(prompt('enter a number: '));
+            } 
+        }
+    }
+    console.log(arr);
+
+
+</script>
+</html>

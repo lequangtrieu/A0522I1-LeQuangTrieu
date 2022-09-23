@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let num = parseInt(prompt('enter a number: '));
+    let arr = [];
+    let count = 0;
+    for(let i = 0; i < num; i++) {
+        arr[i] = parseInt(prompt('enter a number: '));
+        if(arr[i] >= 10) {
+            count++;
+        }
+    }
+    console.log(arr);
+    document.write(count);    
+</script>
+</html>

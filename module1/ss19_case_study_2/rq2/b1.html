@@ -1,0 +1,24 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let num = parseInt(prompt('enter a number: '));
+    let a = [];
+    let b = [];
+    for(let i = 0; i < num; i++) {
+        a[i] = parseInt(prompt('enter a number: '));
+    }
+    let next = 0;
+
+    for(let i = 0; i < a.length; i++) {
+            next += a[i];
+            b[i] = next;
+    }
+    document.write(b);
+</script>
+</html>

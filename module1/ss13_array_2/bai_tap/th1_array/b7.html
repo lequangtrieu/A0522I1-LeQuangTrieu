@@ -8,15 +8,18 @@
     <script>
         let numbers = [4, 6,-15, 16, -3, 24, -19, 34, 48, -5, -17, 38];
         let v = [135, 4, 345, -5, 16, 487, -19, 6];
+        document.write(numbers.join(', ') + '<br>' + v.join(', ') + '<br>');
 
         for (let i = 0; i < v.length; i++) {
             for (let j = 0; j < numbers.length; j++) {
                 if (v[i] == numbers[j]) {
-                    numbers.splice(j, 1, 0);
+                    numbers.splice(j, 1);
+                    numbers.push(0);
                 }
             }
         } 
-        document.write(numbers.join('----'));
+        
+        document.write(numbers.join(', '));
 
     </script>
     

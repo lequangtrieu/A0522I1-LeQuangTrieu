@@ -29,43 +29,45 @@
     document.write(a);
 
 
-     let flag;    
-    for(let i = 1; i < a.length - 2; i++) {
-        if( 
-            ((2*i) > ([i-1] + [i+1])) || ((2*i) < ([i-1] + [i+1]))
-         ) {
-            flag = true;
-        } else {
-            flag = false;
-        }
-    }
-    
-     if(flag) {
-        alert('true');
-    } else {
-        alert('false');
-    }
-
-    
-
-
-    
-    
-    
-
-    // let flag;    
+    //  let flag;    
     // for(let i = 1; i < a.length - 2; i++) {
-    //     if( ((a[i] < a[i - 1]) && (a[i] < a[i + 1])) || ((a[i] > a[i - 1]) && (a[i] > a[i + 1])) ) {
+    //     if( 
+    //         ((2*i) > ([i-1] + [i+1])) || ((2*i) < ([i-1] + [i+1]))
+    //      ) {
     //         flag = true;
     //     } else {
     //         flag = false;
     //     }
     // }
-
-    // if(flag) {
+    
+    //  if(flag) {
     //     alert('true');
     // } else {
     //     alert('false');
     // }
+
+    
+
+
+    
+    
+    
+
+    let flag;    
+    for(let i = 1; i < a.length - 2; i++) {
+        if( (a[i] < a[i - 1]) && (a[i] < a[i + 1])) {
+            if ((a[i] > a[i - 1]) && (a[i] > a[i + 1])) {
+                flag = true;
+            } 
+        } else {
+            flag = false;
+        }
+    }
+
+    if(flag) {
+        alert('true');
+    } else {
+        alert('false');
+    }
 </script>
 </html> 

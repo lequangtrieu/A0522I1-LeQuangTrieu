@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giai phuong trinh bac 2</title>
+</head>
+<body>
+    <h2 style="color:blue; text-align:center;">Giải phương trình bậc 2: ax^2 + bx + c = 0</h2>
+</body>
+<script>
+    let a = parseInt(prompt('enter a: '));
+    let b = parseInt(prompt('enter b: '));
+    let c = parseInt(prompt('enter c: '));
+
+    document.write(a +'x^2 + ' + b + 'x + ' + c + '= 0' + '<br>' + '<br>' + '<br>');
+
+    let delta = b*b - 4*a*c;
+
+    if(delta > 0) {
+        document.write('phuong trinh co 2 nghiem phan biet: x1 = ' + (-b + Math.sqrt(delta))/(2*a) + ' và x2 = ' + (-b - Math.sqrt(delta))/(2*a));
+    } else if(delta = 0) {
+        document.write('phuong trinh co 2 nghiem kép: x1 = x2 = ' + -b/(2*a) );
+    } else {
+        document.write('phuong trinh vo nghiem');
+    }
+
+
+</script>
+</html>

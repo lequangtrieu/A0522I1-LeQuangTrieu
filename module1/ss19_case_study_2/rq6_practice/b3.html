@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2 id="display"></h2>
+</body>
+<script>
+    function abc() {
+        let number = parseInt(prompt('enter the random number'));
+        document.write('the number is: ' + number);
+        let n = parseInt(prompt('enter the length of the array'));
+        let arr = [];
+        for(let i = 0; i < n; i++) {
+            arr[i] = parseInt(prompt('enter a number'));
+        }
+        document.write('<br>');
+        document.write('<br>');
+        document.write('the array before changing: ' + arr);
+        if(number % 2 == 0) {
+            for(let i = 0; i < arr.length; i++) {
+                if(arr[i] % 2 !== 0) {
+                    arr[i] = arr[i] + 1;
+                }
+            }
+        } else {
+            for(let i = 0; i < arr.length; i++) {
+                if(arr[i] % 2 == 0) {
+                    arr[i] = arr[i] + 1;
+                }
+            }
+        }
+
+        for(let i = 0; i < arr.length; i++) {
+            if(arr[i] == number) {
+                arr[i] = -1;
+            }
+        }
+        
+        document.write('<br>');
+        document.write('<br>');
+        document.write('the array after changing: ' + arr);
+    }
+
+    abc();
+   
+</script>
+</html>

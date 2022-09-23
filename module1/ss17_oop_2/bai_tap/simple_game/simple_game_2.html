@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Turn on/off the light</h2>
+    <img src="img/bulb_off.gif" id="lamp" alt="">
+    <br> <br> <br>    
+    <button id="switch" onclick="check()">Turn on/off</button>
+    <br>
+    <h4 id="display">The light off</h4>
+</body>
+<script>
+    class CheckButton {
+        constructor(status) {
+            this.status = status;
+        } 
+        check() {
+            this.status  = !this.status;
+        }
+    }
+    class Light {
+        constructor(button) {
+            this.button = button;
+        }
+        switch() {
+            if(this.button.status) {
+                document.getElementById('lamp').src = 'img/bulb_on.gif';
+                document.getElementById('display').innerHTML = 'The light on';
+            } else {
+                document.getElementById('lamp').src = 'img/bulb_off.gif';
+                document.getElementById('display').innerHTML = 'The light off';
+            }
+        }
+    }
+    let cButton = new CheckButton(false);
+    let lamp = new Light(cButton);
+    function check() {
+        cButton.check();
+        lamp.switch();
+    }
+</script>
+</html>

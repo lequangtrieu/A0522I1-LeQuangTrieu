@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let a;
+    let arr = [];
+    let n = parseInt(prompt('enter a number: '));
+    while(n > 0) {
+        a = n % 2; 
+        arr.push(a);
+        n = Math.floor(n/2);
+    }
+    document.write(arr.reverse().join(' '));
+
+</script>
+</html>

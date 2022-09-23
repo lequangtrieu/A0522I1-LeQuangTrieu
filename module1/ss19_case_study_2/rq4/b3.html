@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+    let str1 = prompt('enter a string: ');
+    let arr1 = str1.split('');
+    let str2 = prompt('enter a string: ');
+    let arr2 = str2.split('');
+
+    let count = 0;
+
+    for(let i = 0; i < arr1.length; i++) {
+        for(let j = 0; j < arr2.length; j++) {
+            if(arr1[i] == arr2[j]) {
+            count++;
+            arr2.splice(j, 1);
+            i++;
+            }
+        }
+    }
+    console.log(arr2);
+
+    document.write('số kí tự chung của 2 xâu kí tự đã nhập là: ' + count);
+
+    
+    
+
+</script>
+</html>

@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    <button onclick="create()">Thêm mới sản phẩm</button>   
+    <p id="display"></p>
+</body>
+<script>
+    class Phone {
+        constructor(name, price, color) {
+            this.name = name;
+            this.price = price;
+            this.color = color;
+        }
+        setName(newName) {
+            this.name = newName;
+        }
+        
+        setPrice(newPrice) {
+            this.price = newPrice;
+        }
+
+        setColor(newColor) {
+            this.color = newColor;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        getPrice() {
+            return this.price;
+        }
+
+        getColor() {
+            return this.color;
+        }
+    }
+
+    let nokia = new Phone('Nokia',500000,'Black');
+    let iphone = new Phone('Iphone', 300000, 'White');
+    let array = [nokia, iphone];
+
+    function display(array) {
+        let str = "<table border='1px'>\n" +
+            '<tr>\n'+
+                '<th>Name</th>\n'+
+                '<th>Price</th>\n'+
+                '<th>Color</th>\n'+
+                '<th>More</th>\n'+
+            '</tr>';
+           
+            for(let i = 0; i < array.length; i++) {
+                str += '<tr>' +
+                    '<td>' + array[i].getName() + '</td>'+
+                    '<td>' + array[i].getPrice() + '</td>'+
+                    '<td>' + array[i].getColor() + '</td>'+
+                    '<td>' + '<button onclick="edit('+i+')">Edit</button>' +
+                             '<button onclick="remove('+i+')">Remove</button>' +
+                    '</td>'+
+                    '</tr>';
+            }
+           
+        
+
+        str += '</table>'
+        
+        document.getElementById("display").innerHTML = str;
+    }
+
+    display(array);
+
+    function create() {
+        let newName = prompt('enter the name: ');
+        let newPrice = prompt('enter the price: ');
+        let newColor = prompt('enter the color: ');
+        let newPhone = new Phone(newName, newPrice, newColor);
+        array.push(newPhone);
+        alert('adding a new phone completely');
+        display(array);
+    }
+
+    function edit(value) {
+        let newName = prompt('enter the name: ');
+        let newPrice = prompt('enter the price: ');
+        let newColor = prompt('enter the color: ');
+        let newPhone = new Phone(newName, newPrice, newColor);
+        array[value] = newPhone;
+        alert('editing completely');
+    }
+
+    function remove(value) {
+        let check = confirm('do you really wanna delete it: ');
+        if(check) {
+            array.splice(value, 1);
+            alert('delete completely');
+        }
+        display(array);
+    }
+
+</script>
+</html>

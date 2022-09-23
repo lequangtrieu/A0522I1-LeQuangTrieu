@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h3 id="display"></h3>
+</body>
+<script>
+    let str = prompt('enter a string: ');
+    let arr = str.split('');
+    let count = 0;
+    
+
+    arr.sort(function(c, d) {
+        var a = c.toLowerCase();
+        var b = d.toLowerCase();
+        if (a < b) return -1;
+        if (a > b) return 1;
+        return 0;
+    })
+
+    document.getElementById('display').innerHTML = arr + '<br>';
+
+    for(let i = 0; i < arr.length; i++) {
+        if(arr[i] == arr[i + 1]) {
+            console.log('false');
+        } else {
+            count++;
+        }
+    }
+
+    document.getElementById('display').innerHTML += '<br>' + ' số kí tự khác nhau là: ' + count;
+ </script>
+</html>

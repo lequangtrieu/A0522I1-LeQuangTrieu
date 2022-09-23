@@ -9,22 +9,88 @@
 <script>
     class Apple {
 
-        constructor(weight) {
-            this.weight = weight;
+        constructor() {
+            this.weight = 10;
         }
         getWeight() {
             return this.weight;
         }
 
-        setWeight(newWeight) {
-            this.weight = weight;
-        }
-
         decrease() {
             this.weight--;
         }
+        isEmpty() {
+            if(this.weight == 0) {
+                return true
+            } else {
+                return false
+            }
+        }
 
 
+    }
+
+    class Human {
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+        }
+        getName() {
+            return this.name;
+        }
+        setName(newName) {
+            this.name = name;
+        }
+        getWeight() {
+            return this.weight;
+        }
+        setWeight() {
+            this.weight = weight;
+        }
+        isMale() {
+            if(this.gender == 'Male') {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        setGender(boolean) {
+            if(true) {
+                this.gender = 'Male';
+            } else {
+                this.gender = 'Female';
+            }
+        }
+        checkApple(Apple) {
+            if(Apple.weight > 0) {
+                return true; 
+            } else {
+                return false;
+            }
+        }
+        eat(Apple) {
+            Apple.weight--;
+        }
+        say(string) {
+            console.log('string');
+        }
+
+    }
+
+    let adam = new Human("Adam", "Male", 90);
+    let eva = new Human("Eva", "Female", 65);
+    let apple = new Apple();
+
+    let count = 0 ;
+    while   (!apple.isEmpty()){
+        adam.eat(apple);
+        console.log(++count + "adam");
+        eva.eat(apple);
+        console.log(++count + "eva");
+    }
+    if (apple.isEmpty()){
+            alert("Out of apple!");
     }
 </script>
 

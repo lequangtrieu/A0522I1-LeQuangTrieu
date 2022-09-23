@@ -7,27 +7,39 @@
     <h1 style="color:blue; text-align:center; font-size:45px;"> Caculator   </h1>
     <input id="count" type="text"> <br> <br>
    
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>+</button> <br><br>
+        <button onclick="tinh('1')" id="1">1</button>
+        <button onclick="tinh('2')" id="2">2</button>
+        <button onclick="tinh('3')" id="3">3</button>
+        <button onclick="tinh('+')" id="+">+</button> <br><br>
 
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>-</button> <br><br>
+        <button onclick="tinh('4')" id="4">4</button>
+        <button onclick="tinh('5')" id="5">5</button>
+        <button onclick="tinh('6')" id="6">6</button>
+        <button onclick="tinh('-')" id="-">-</button> <br><br>
 
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>x</button> <br><br>
+        <button onclick="tinh('7')" id="7">7</button>
+        <button onclick="tinh('8')" id="8">8</button>
+        <button onclick="tinh('9')" id="9">9</button>
+        <button onclick="tinh('*')" id="*">x</button> <br><br>
 
-        <button>C</button>
-        <button>0</button>
-        <button>=</button>
-        <button>/</button>
-   
-
+        <button onclick="tinh1()" id="C">C</button>
+        <button onclick="tinh('0')" id="0">0</button>
+        <button onclick="tinh2()" id="=">=</button>
+        <button onclick="tinh('/')" id="/">/</button>
     
 </body>
+<script>
+    function tinh(value) {
+        document.getElementById('count').value += value;
+    }
+
+    function tinh2() {
+        let x = document.getElementById('count').value;
+        document.getElementById('count').value = eval(x);
+    }
+
+    function tinh1() {
+        document.getElementById('count').value = null;
+    }
+</script>
 </html>

@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let m = parseInt(prompt('enter a number: '));
+    let n = parseInt(prompt('enter a number: '));
+    let limit = m*n;
+    let next = 0;
+    let total = 0;
+    
+    let arr = [];
+
+    for(let i = 0; i <= limit/2; i++) {
+        arr[i] = next;
+        next += 2;
+    }
+    console.log(arr);
+
+    for(let i =0; i < arr.length; i++) {
+        total += arr[i];
+    }
+
+    document.write(total);
+</script>
+</html>

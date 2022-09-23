@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    let num = parseInt(prompt('enter a number: '));
+    let arr = [];
+    let max = 0;
+    let index;
+    for(let i = 0; i < num; i++) {
+        arr[i] = parseInt(prompt('enter a number: '));
+        if (arr[i] > max) {
+            max = arr[i];
+            index = i;
+        }
+    }
+    console.log(arr);
+    document.write('max is: ' + max + '<br>' + '<br>');
+    document.write('index is: ' + index);
+    
+</script>
+</html>
