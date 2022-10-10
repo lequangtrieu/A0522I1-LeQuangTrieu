@@ -1,0 +1,97 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="add()">Adding a new product</button>
+    <p id="display"></p>
+    
+
+</body>
+<script>
+    class Phone {
+        constructor(name, color, price) {
+            this.name = name;
+            this.color = color;
+            this.price = price;
+
+        }
+        getName() {
+            return this.name;
+        }
+        getColor() {
+            return this.color;
+        }
+        getPrice() {
+            return this.price;
+        }
+
+    }
+
+    let iphone = new Phone('Iphone', 'Black', 500000);
+    let samsung = new Phone('Samsung', 'White', 200000);
+    let arr =[iphone, samsung];
+
+    function display() {
+        let str = 
+        '<table border="1px">\n'+
+        '<tr>\n'+
+            '<td>Name</td>\n'+
+            '<td>Color</td>\n'+
+            '<td>Price</td>\n'+
+            '<td>The amount of</td>\n'+
+            '<td>More</td>\n'+
+        '</tr>';
+
+        for(let i = 0; i < arr.length; i++) {
+            str += '<tr>\n'+
+                '<td>'+ arr[i].getName() +'</td>\n'+
+                '<td>'+ arr[i].getColor() +'</td>\n'+
+                '<td>'+ arr[i].getPrice() +'</td>\n'+
+                '<td>'+ 
+                    '<select>'+
+                        '<option value="1">1</option>'+
+                        '<option value="2">2</option>'+
+                        '<option value="3">3</option>'+
+                        '<option value="4">4</option>'+
+                    '</select>'
+                    +'</td>\n'+
+                '<td>'+
+                    '<button onclick="edit('+i+')">Edit</button>'+
+                    '<button onclick="remove('+i+')">Remove</button>'+
+                    '</td>\n'+
+                '</tr>';
+                
+        }
+    str += '</table>'
+
+    document.getElementById('display').innerHTML = str;
+    }
+    display();
+
+    function add() {
+        let newName = prompt('enter the name: ');
+        let newColor = prompt('enter the color: ');
+        let newPrice = prompt('enter the price: ');
+        let newPhone = new Phone(newName, newColor, newPrice);
+        arr.push(newPhone);
+        display(arr);
+    }
+
+    function edit(value) {
+        let newName = prompt('enter the name: ');
+        let newColor = prompt('enter the color: ');
+        let newPrice = prompt('enter the price: ');
+        let newPhone = new Phone(newName, newColor, newPrice);
+        arr[value] = newPhone;
+        display();
+    }
+
+    function remove(value) {
+        arr.splice(value, 1);
+        display();
+    }
+
+</script>
+</html>

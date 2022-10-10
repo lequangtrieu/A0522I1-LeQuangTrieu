@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center; color: blue;"> Chuyển đổi tiền tệ</h1> <br>
+    
+    <b>Amount</b>
+    <input id="amount" type="number">  <br> <br>
+
+
+      
+    <b> From Currency</b> 
+    <select name="fromC" id="fromC">
+        <option value="vietnam"> Vietnam</option>
+        <option value="usd">USD</option>
+        <option value="china">China</option>
+    </select>  <br> <br>
+
+    <b>To Currency</b>
+    <select name="toC" id="toC">
+        <option value="vietnam"> Vietnam</option>
+        <option value="usd">USD</option>
+        <option value="china">China</option>
+    </select> <br><br>
+
+    <button onclick="convert()"> Convert</button>
+   
+</body>
+<script>
+    function convert(){
+    let amount = document.getElementById("amount").value;   
+    if(document.getElementById('fromC').value == 'vietnam' && document.getElementById('toC').value == 'usd') {
+        let money = amount / 23870;    
+        alert(money);
+    } 
+    if(document.getElementById('toC').value == 'vietnam' && document.getElementById('fromC').value == 'usd') {
+        let money = amount * 23870;    
+        alert(money);
+    } 
+
+    if(document.getElementById('fromC').value == 'vietnam' && document.getElementById('toC').value == 'china') {
+        let money = amount / 3355;    
+        alert(money);
+    } 
+    if(document.getElementById('toC').value == 'vietnam' && document.getElementById('fromC').value == 'china') {
+        let money = amount * 3355;    
+        alert(money);
+    }
+
+    if(document.getElementById('fromC').value == 'usd' && document.getElementById('toC').value == 'china') {
+        let money = amount * 7;    
+        alert(money);
+    } 
+    if(document.getElementById('toC').value == 'usd' && document.getElementById('fromC').value == 'china') {
+        let money = amount / 7;    
+        alert(money);
+    } 
+    }   
+
+    
+    
+ </script>
+</html>

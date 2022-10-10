@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+<script>
+      function check(x) {
+        for(let i = 2; i < x; i++) {
+          if(x % i == 0) {
+            return false;
+          }
+        }
+        return true;
+      }
+      function primes(n) {
+        for(let i = 2; i <= n; i++) {
+          if(check(i) == true) {
+            document.write(i);
+            document.write('<br>');
+          }
+        }
+      }
+      let n = prompt('enter the num:');
+      primes(n);
+</script>
+</html>

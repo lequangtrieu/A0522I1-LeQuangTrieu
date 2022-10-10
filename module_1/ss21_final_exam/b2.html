@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function Check(ts1, ms1, ts2, ms2) {
+        if((ts1 * ms2) == (ts2 * ms1)) {
+            console.log('true');
+        } else {
+            console.log('false');
+        }
+    }
+    Check(1, 2, 2, 4);
+    Check(1, 2, 1, 2);
+    Check(1, 2, 2, 3);
+</script>
+</html>

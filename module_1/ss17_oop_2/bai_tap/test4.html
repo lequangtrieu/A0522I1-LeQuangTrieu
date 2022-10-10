@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    .button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+    }
+
+
+    #customers {
+        font-family: Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #customers td, #customers th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #customers tr:nth-child(even){background-color: #f2f2f2;}
+
+    #customers tr:hover {background-color: #ddd;}
+
+    #customers th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #04AA6D;
+        color: white;
+    }
+
+</style>
+<body>
+    
+    <button class="button" onclick="add()">Adding a new product</button>
+    <p id="display"></p>
+</body>
+<script>
+    class Students {
+        constructor(name, age, email) {
+            this.name = name;
+            this.age = age;
+            this.email = email;
+        }
+        getName() {
+            return this.name;
+        }
+        getAge() {
+            return this.age;
+        }
+        getEmail() {
+            return this.email;
+        }
+
+        setName(newName) {
+            this.name = newName;
+        }
+        setAge(newAge) {
+            this.age = newAge;
+        }
+        setEmail(newEmail) {
+            this.email = newEmail;
+        }
+    }
+    let studentA = new Students('Cong', 28, 'cong@codegym.vn');
+    let studentB = new Students('Trung', 38, 'trung@codegym.vn');
+    let arr = [studentA, studentB];
+
+    function display() {
+        str = 
+            '<table id="customers" border="1px">\n'+
+                '<tr>\n'+
+                    '<th>Stt</th>\n' +
+                    '<th>Name</th>\n' +
+                    '<th>Age</th>\n' +
+                    '<th>Email</th>\n' +
+                    '<th>Grade</th>\n' +
+                    // '<th>Fee</th>\n' +
+                    '<th>More</th>\n' +
+                '</tr>\n';
+
+        for(let i = 0; i < arr.length; i++) {
+            str += '<tr>\n'+
+                    '<td>'+ (i + 1) + '</td>\n' +
+                    '<td>'+arr[i].getName()+ '</td>\n' +
+                    '<td>'+arr[i].getAge()+ '</td>\n' +
+                    '<td>'+arr[i].getEmail()+ '</td>\n' +
+                    '<td>'+
+                        '<select name="grade" id="">\n' +
+                            '<option value="1">1</option>\n' +
+                            '<option value="2">2</option>\n' +
+                            '<option value="3">3</option>\n' +
+                            '<option value="4">4</option>\n' +
+                            '<option value="5">5</option>\n' +
+                            // '<option value="6">6</option>\n' +
+                            // '<option value="7">7</option>\n' +
+                            // '<option value="8">8</option>\n' +
+                            // '<option value="9">9</option>\n' +
+                        '</select>' +
+                    '</td>\n' +
+                    // '<td>Fee</td>\n' +                    
+                    '<td>'+
+                        '<button onclick="edit('+ i +')">Edit</button>' +
+                        '<button onclick="remove('+ i +')">Remove</button>'
+                        + '</td>\n' +
+
+                '</tr>\n';
+        }
+
+        str += '</table>';
+        document.getElementById('display').innerHTML = str;    
+    }
+    display();
+
+    function edit(value) {
+        let newName = prompt('enter the name');
+        let newAge = prompt('enter the age');
+        let newEmail = prompt('enter the email');
+
+        arr[value].setName(newName);
+        arr[value].setAge(newName);
+        arr[value].setEmail(newName);
+        display();
+    }
+
+    function add() {
+        let newName = prompt('enter the name');
+        let newAge = prompt('enter the age');
+        let newEmail = prompt('enter the email');
+        let newStudent = new Students(newName, newAge, newEmail);
+        arr.push(newStudent);
+        display();
+    }
+
+    function remove(value) {
+        if(confirm('do you really wanna remove it')) {
+            arr.splice(value, 1);
+        }
+        display();
+    }
+</script>
+</html>
