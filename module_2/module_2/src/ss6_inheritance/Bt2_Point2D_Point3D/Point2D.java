@@ -1,8 +1,8 @@
 package ss6_inheritance.Bt2_Point2D_Point3D;
 
 public class Point2D {
-    private float x = 0.0f;
-    private float y = 0.0f;
+    protected float x = 1.0f;
+    protected float y = 1.0f;
 
     public Point2D() {
 
