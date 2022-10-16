@@ -1,8 +1,8 @@
 package ss6_inheritance.Th1_Shape.Circle;
 
-import ss6_inheritance.Th1_Shape.Th1_Shape_Class;
+import ss6_inheritance.Th1_Shape.Th1ShapeClass;
 
-public class Circle extends Th1_Shape_Class {
+public class Circle extends Th1ShapeClass {
     private double radius = 1.0;
 
     public Circle() {

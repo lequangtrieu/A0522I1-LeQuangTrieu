@@ -1,7 +1,6 @@
 package ss6_inheritance.Th1_Shape.Square;
 
 import ss6_inheritance.Th1_Shape.Rectangle.Rectangle;
-import ss6_inheritance.Th1_Shape.Th1_Shape_Class;
 
 public class Square extends Rectangle {
     public Square() {

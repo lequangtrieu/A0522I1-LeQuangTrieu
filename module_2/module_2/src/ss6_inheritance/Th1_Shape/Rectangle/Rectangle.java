@@ -1,8 +1,8 @@
 package ss6_inheritance.Th1_Shape.Rectangle;
 
-import ss6_inheritance.Th1_Shape.Th1_Shape_Class;
+import ss6_inheritance.Th1_Shape.Th1ShapeClass;
 
-public class Rectangle extends Th1_Shape_Class {
+public class Rectangle extends Th1ShapeClass {
     private double width = 1.0;
     private double length = 1.0;
 
