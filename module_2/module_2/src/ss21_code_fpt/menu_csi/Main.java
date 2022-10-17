@@ -1,4 +1,4 @@
-package menu_csi;
+package ss21_code_fpt.menu_csi;
 
 import java.util.Scanner;
 

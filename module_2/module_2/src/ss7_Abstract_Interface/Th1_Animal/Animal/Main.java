@@ -1,5 +1,7 @@
 package ss7_Abstract_Interface.Th1_Animal.Animal;
 
+import ss7_Abstract_Interface.Th1_Animal.Edible.Edible;
+
 public class Main {
     public static void main(String[] args) {
         Animal[] animals = new Animal[2];
@@ -8,11 +10,12 @@ public class Main {
         for (Animal animal:
              animals) {
             System.out.println(animal.makeSound());
-        }
 
-//        if(animal instanceof Chicken) {
-//
-//        } ??
+            if(animal instanceof Chicken) {
+                Edible edible = (Chicken) animal;
+                System.out.println(edible.howToEat());
+            }
+        }
 
     }
 }
