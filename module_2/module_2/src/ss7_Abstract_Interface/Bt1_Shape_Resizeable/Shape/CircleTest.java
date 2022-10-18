@@ -1,4 +1,4 @@
-package ss7_Abstract_Interface.Bt1_Resizeable.Shape;
+package ss7_Abstract_Interface.Bt1_Shape_Resizeable.Shape;
 
 public class CircleTest {
     public static void main(String[] args) {

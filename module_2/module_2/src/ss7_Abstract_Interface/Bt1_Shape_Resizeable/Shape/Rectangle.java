@@ -1,6 +1,6 @@
-package ss7_Abstract_Interface.Bt1_Resizeable.Shape;
+package ss7_Abstract_Interface.Bt1_Shape_Resizeable.Shape;
 
-import ss7_Abstract_Interface.Bt1_Resizeable.Resizeable;
+import ss7_Abstract_Interface.Bt1_Shape_Resizeable.Resizeable;
 
 public class Rectangle extends Shape implements Resizeable {
     private double width = 1.0;

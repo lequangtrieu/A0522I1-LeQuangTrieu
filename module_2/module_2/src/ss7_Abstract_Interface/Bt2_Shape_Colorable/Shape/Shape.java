@@ -1,4 +1,4 @@
-package Shape_Source;
+package ss7_Abstract_Interface.Bt2_Shape_Colorable.Shape;
 
 public class Shape {
     private String color = "green";
@@ -34,9 +34,5 @@ public class Shape {
                 + getColor()
                 + " and "
                 + (isFilled() ? "filled" : "not filled");
-    }
-
-    public void howToColor() {
-        System.out.println("Color all four sides");
     }
 }
