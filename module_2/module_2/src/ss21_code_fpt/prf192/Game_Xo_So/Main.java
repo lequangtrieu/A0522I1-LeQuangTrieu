@@ -32,7 +32,11 @@ public class Main {
     }
     public static void main(String[] args) {
         System.out.println("enter the level: ");
-        int n = input.nextInt();
-        Check(n);
+//        int n = input.nextInt();
+//        Check(n);
+
+        for (int i = 0; i < 10; i++) {{
+            System.out.println(Math.random() * 100);
+        }}
     }
 }
