@@ -1,6 +1,4 @@
-package ss7_Abstract_Interface.Bt1_Resizeable.com.codegym;
-
-import ss7_Abstract_Interface.Bt1_Resizeable.Resizeable;
+package ss7_Abstract_Interface.Bt1_Resizeable.Shape;
 
 public class CircleTest {
     public static void main(String[] args) {

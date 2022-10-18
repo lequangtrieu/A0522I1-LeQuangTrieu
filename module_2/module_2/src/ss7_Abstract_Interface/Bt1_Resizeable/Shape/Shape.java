@@ -1,4 +1,4 @@
-package ss7_Abstract_Interface.Bt1_Resizeable.com.codegym;
+package ss7_Abstract_Interface.Bt1_Resizeable.Shape;
 
 public class Shape {
     private String color = "green";

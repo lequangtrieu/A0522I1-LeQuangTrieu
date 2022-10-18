@@ -1,8 +1,6 @@
-package ss7_Abstract_Interface.Bt1_Resizeable.com.codegym;
+package Shape_Source;
 
-import ss7_Abstract_Interface.Bt1_Resizeable.Resizeable;
-
-public class Rectangle extends Shape implements Resizeable {
+public class Rectangle extends Shape {
     private double width = 1.0;
     private double length = 1.0;
 
@@ -52,10 +50,5 @@ public class Rectangle extends Shape implements Resizeable {
                 + getLength()
                 + ", which is a subclass of "
                 + super.toString();
-    }
-
-    @Override
-    public double resize(double percent) {
-        return getArea() + getArea() * percent;
     }
 }
