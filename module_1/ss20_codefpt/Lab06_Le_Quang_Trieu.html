@@ -1,0 +1,121 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 06 Lê Quang Triêu</title>
+</head>
+<body>
+    
+</body>
+<script>
+    function add() {
+            if(arr.length >= 100) {
+                alert('cannot add element to array because of limit');
+            } else {
+                let num = parseInt(prompt('enter the number you wanna add to the array: '));
+                arr.push(num);
+            };
+    }
+
+    function search() {
+            let index = 0;
+            let flag = false;
+            let num = parseInt(prompt('enter the number you wanna find in the array: '));
+            for(let i = 0; i < arr.length; i++) {
+                if(num == arr[i]) {
+                    index = i;
+                    flag = true;
+                }
+            }
+            if(flag) {
+                alert('the index of the number you wanna find is: ' + index);
+            } else {
+                alert('the number is not exits in the array');
+            }
+    }
+
+
+    function removeFirst() {
+        let index = 0;
+        let num = parseInt(prompt('enter the number you wanna remove in the array: '));
+
+        for(let i = 0; i < arr.length; i++) {
+            if(arr[i] == num ) {
+                index = i;
+                break;
+            }
+        }
+        arr.splice(index, 1);
+    }
+
+    function removeAll() {
+        arr.splice(0, arr.length);
+    }
+
+    function display() {
+        alert(arr);
+    }
+
+    function sortAscending() {
+        let arr1 = arr.sort(
+            function(a, b) {
+                return a - b;
+            }
+        );
+
+        alert(arr1);
+    }
+
+    function sortDesceding() {
+        let arr2 = arr.sort(
+            function(a, b) {
+                return b -a;
+            }
+        );
+            alert(arr2);
+    }
+
+    let arr = [];
+    let choice = -1;
+    while(choice != 0) {
+        choice = parseInt(prompt(
+            '\nMenu: ' + 
+            '\n 1. Add a value' +
+            '\n 2. Search a value' +
+            '\n 3. Remove the first existence of a value' +
+            '\n 4. Remove all existences of a value' +
+            '\n 5. Print out the array' +
+            '\n 6. Sort the array in ascending order' +
+            '\n 7. Sort the array in descending order' +
+            '\n 0. Exit'
+        ));
+        switch(choice) {
+            case 1: 
+                add();
+                break;
+            case 2: 
+                search();
+                break;
+            case 3:
+                removeFirst();
+                break;
+            case 4:
+                removeAll();
+                break;
+            case 5: 
+                display();
+                break;
+            case 6: 
+                sortAscending();
+                break;
+            case 7: 
+                sortDesceding();
+                break;
+            case 0: 
+                continue;
+            default:
+                alert('No choice!');
+                
+        }
+    }
+</script>
+</html>
