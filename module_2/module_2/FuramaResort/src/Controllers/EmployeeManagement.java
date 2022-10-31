@@ -1,13 +1,14 @@
 package Controllers;
 
 import Services.EmployeeService;
+import Services.Implement.EmployeeServiceImp;
 
 import java.util.Scanner;
 
 public class EmployeeManagement {
     public static Scanner input = new Scanner(System.in);
 
-
+    private static EmployeeService employeeService = new EmployeeServiceImp();
     public static void manageEmployee() {
         while (true) {
             System.out.println("1. Display list employees");

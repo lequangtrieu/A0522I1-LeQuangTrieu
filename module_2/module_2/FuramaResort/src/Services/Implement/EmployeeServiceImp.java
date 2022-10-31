@@ -1,4 +1,7 @@
 package Services.Implement;
 
-public class EmployeeServiceImp {
+import Services.EmployeeService;
+
+public class EmployeeServiceImp implements EmployeeService {
+
 }
