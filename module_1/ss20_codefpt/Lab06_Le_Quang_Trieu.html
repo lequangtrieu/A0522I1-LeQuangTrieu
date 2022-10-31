@@ -56,7 +56,8 @@
     }
 
     function sortAscending() {
-        let arr1 = arr.sort(
+        let arr1 = arr;
+        arr1.sort(
             function(a, b) {
                 return a - b;
             }
@@ -66,7 +67,8 @@
     }
 
     function sortDesceding() {
-        let arr2 = arr.sort(
+        let arr2 = arr;
+        arr2.sort(
             function(a, b) {
                 return b -a;
             }

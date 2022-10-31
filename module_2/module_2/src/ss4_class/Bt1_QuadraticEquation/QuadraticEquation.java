@@ -1,7 +1,7 @@
 package ss4_class.Bt1_QuadraticEquation;
 
 public class QuadraticEquation {
-    double a, b, c;
+    private double a, b, c;
 
     public QuadraticEquation(double a, double b, double c) {
         this.a = a;

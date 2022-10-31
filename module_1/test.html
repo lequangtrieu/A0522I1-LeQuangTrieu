@@ -4,11 +4,22 @@
   <title>Document</title>
 </head>
 <body>
-  <button onclick="remove()"> abc</button>
+  
 </body>
 <script>
-  let arr = [1,2,3,4,5,6,7,8,9];
-  alert(arr);
+  let a = 'abc';
+  let b = 'xyz';
+  document.write(a, b);
+  document.write('<br>');
+
+  function swap(x, y) {
+    let temp = x;
+    x = y;
+    y = temp;
+    document.write(x, y);
+  }
+
+  swap(a, b);
 
 
 </script>
