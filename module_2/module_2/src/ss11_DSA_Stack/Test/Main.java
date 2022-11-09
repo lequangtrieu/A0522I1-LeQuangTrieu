@@ -17,20 +17,22 @@ public class Main {
         for (int i = 0; i < s.length(); i++) {
             System.out.print(stack.pop());
         }
+//        System.out.println();
+//        System.out.println(s);
 
-        Stack<Integer> stackConvert = new Stack<Integer>();
-        System.out.println("\nNhập một số nguyên  dương từ bàn phím: ");
-        int x = input.nextInt();
-        while (x > 0) {
-            int result = x % 2;
-            stackConvert.push(result);
-            x = x / 2;
-        }
-        int n = stackConvert.size();
-        System.out.println("Số nhị phân là: ");
-        for (int i = 0; i < n; i++) {
-            System.out.println(stackConvert.pop());
-        }
+//        Stack<Integer> stackConvert = new Stack<Integer>();
+//        System.out.println("\nNhập một số nguyên  dương từ bàn phím: ");
+//        int x = input.nextInt();
+//        while (x > 0) {
+//            int result = x % 2;
+//            stackConvert.push(result);
+//            x = x / 2;
+//        }
+//        int n = stackConvert.size();
+//        System.out.println("Số nhị phân là: ");
+//        for (int i = 0; i < n; i++) {
+//            System.out.println(stackConvert.pop());
+//        }
 
     }
 }

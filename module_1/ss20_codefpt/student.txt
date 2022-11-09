@@ -1,0 +1,4 @@
+Joseph; 12 Le Loi street, Q1, HCM city; 7
+Vu; 12 3 street, Q2 HCM city; 8
+Miranda; 123 Calmate street, District 1, Da Nang; 6
+Dion; 214 street, district 7, Hue City
