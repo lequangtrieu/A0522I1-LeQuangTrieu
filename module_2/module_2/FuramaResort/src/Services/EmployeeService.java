@@ -1,5 +1,5 @@
 package Services;
 
-public interface EmployeeService extends IService{
+public interface EmployeeService extends Service {
 
 }
