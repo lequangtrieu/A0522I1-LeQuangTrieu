@@ -1,29 +1,59 @@
 package ss12_Collection.Bt2_Collections;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class Product {
-    private static ProductManagement productManagement = new ProductManagement();
-    private static Scanner input = new Scanner(System.in);
+    private Scanner input = new Scanner(System.in);
+    private List<Product> arr = new ArrayList<>();
+    private int id;
+    private String name;
+    private double price;
 
-    public static void main(String[] args) {
-        while (true) {
-            System.out.println("\nMenu: ");
-            System.out.println("1. add new product: ");
-            System.out.println("2. edit base on id: ");
-            System.out.println("3. remove base on id: ");
-            System.out.println("4. print list: ");
-            System.out.println("5. search base on name: ");
-            System.out.println("6. sort ascending price: ");
-            System.out.println("7. sort descending price: ");
-            System.out.println("8. exit: ");
-            System.out.println("enter your choice: ");
-            int choice = Integer.parseInt(input.nextLine());
+    public Product() {
+    }
 
-            switch (choice) {
-                case 1:
+    public Product(int id, String name, double price) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
 
-            }
-        }
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                '}';
+    }
+
+    public void addProduct(Product product) {
+        arr.add(product);
     }
 }

@@ -1,4 +1,4 @@
 package Services;
 
-public interface FacilityService extends Service{
+public interface FacilityService extends IService{
 }
