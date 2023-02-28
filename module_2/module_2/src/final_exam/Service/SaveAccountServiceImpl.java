@@ -117,7 +117,7 @@ public class SaveAccountServiceImpl implements SaveAccountService {
         BufferedReader br = new BufferedReader(fileReader);
 
         String line;
-        String temp[];
+        String[] temp;
         SaveAccount saveAccount;
 
         while ((line = br.readLine()) != null) {

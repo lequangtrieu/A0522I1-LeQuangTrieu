@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87eca84f-c2d1-4aa8-af51-ed27802d30af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/module_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Lab_EduNext/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/ConvertBinaryToDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/ConvertCharToMark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/ConvertDecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/ConvertMarkToChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/FirstDegreeEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/HelloJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/MarkAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/MarkAverage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PerfectNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PerfectSquareNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/Primes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PrintDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PrintMarkMoreFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PrintMarkMoreFiveDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/RegexName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/SumNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/SumNumbers2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/CommonMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/CountButtonsMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/RegexName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/StringArrayProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/SumNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/SumTwoMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt1_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt1_css_to_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt2_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt2_text_format.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt3_read_online.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7_web_layout_css/th1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7_web_layout_css/th1_box_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7_web_layout_css/th2_create_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConvertServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_login_servlet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_login_servlet/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_login_servlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_login_servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_login_servlet/src/main/java/WebLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web_login_servlet/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/src/main/java/SeverTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_1/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_1/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_2/module_2/out/production/module_2/ss21_code_fpt/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_2/module_2/out/production/module_2/ss21_code_fpt/Testing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_2/module_2/src/ss21_code_fpt/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_2/module_2/src/ss21_code_fpt/Testing.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LMNtHzRh2CbwdKXtxhZUxOjgqe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.example : convert_money-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7307fc63-6181-4a53-b90d-c2e1f38f7490" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52252" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : convert_money-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87eca84f-c2d1-4aa8-af51-ed27802d30af" name="Changes" comment="" />
+      <created>1675677207636</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675677207636</updated>
+      <workItem from="1675677209192" duration="1533000" />
+      <workItem from="1675682697666" duration="1018000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

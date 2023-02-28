@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26713dd4-5792-4956-ad5a-70616ab27546" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../.idea/module_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bootstrap4/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../module_3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/Demo/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/Demo/EmployeeManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/Demo/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Lab_EduNext/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/ConvertBinaryToDecimal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/ConvertCharToMark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/ConvertDecimalToBinary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/ConvertMarkToChar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/FirstDegreeEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/HelloJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/MarkAverage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/MarkAverage2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PerfectNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PerfectSquareNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/Primes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PrintDivisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PrintMarkMoreFive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/PrintMarkMoreFiveDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/QuadraticEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/RegexName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/SumNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/SumNumbers2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab1A/note" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/CommonMultiple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/CountButtonsMotor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/RegexName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/StringArrayProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/SumNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_1/Lab_1B_NC/SumTwoMatrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_2/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_3/Model/MiddleBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_3/Model/NorthBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Controller/CalculateSalary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Controller/DisplayEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Controller/EmployeeManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Controller/InputEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Model/MainEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Model/PartTimeEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Service/MainEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Service/MainEmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Service/PartTimeEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Service/PartTimeEmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss20_code_fpt/Week_4/Utils/RegexEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt1_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt1_css_to_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt2_css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt2_text_format.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/bt3_read_online.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss6_css/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7_web_layout_css/th1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7_web_layout_css/th1_box_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss7_web_layout_css/th2_create_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../src/ss8_bootstrap/gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/src/main/webapp/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../convert-curency/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dictionary/src/main/webapp/translate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/java/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/webapp/customer/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/webapp/customer/delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/webapp/customer/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/webapp/customer/error-404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/webapp/customer/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/webapp/customer/view.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss11_mvc/customer-management/src/main/webapp/demo web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/convert_money/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/convert_money/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/convert_money/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/convert_money/src/main/java/ConvertServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/convert_money/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/dictionary/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/dictionary/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/dictionary/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/dictionary/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/dictionary/src/main/java/DictionaryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/dictionary/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/product-discounnt/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/product-discounnt/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/product-discounnt/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/product-discounnt/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/product-discounnt/src/main/java/ProductDiscount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/product-discounnt/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/web_login_servlet/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/web_login_servlet/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/web_login_servlet/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/web_login_servlet/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/web_login_servlet/src/main/java/WebLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ss9_demo_web/web_login_servlet/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/src/main/java/SeverTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../sever-time/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_1/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_1/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_2/module_2/out/production/module_2/ss21_code_fpt/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_2/module_2/out/production/module_2/ss21_code_fpt/Testing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_2/module_2/src/ss21_code_fpt/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_2/module_2/src/ss21_code_fpt/Testing.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2LXfvCIUeZBfDNK4qXRCvjYg0Ll" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/CODEGYM/module_3/module_3/ss11_mvc/customer-management",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.example : customer-list-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="00be965b-6f8b-40ca-a5ba-44969fce3bad" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64712" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : customer-list-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26713dd4-5792-4956-ad5a-70616ab27546" name="Changes" comment="" />
+      <created>1676022577755</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1676022577755</updated>
+      <workItem from="1676022580024" duration="373000" />
+      <workItem from="1676033546648" duration="800000" />
+      <workItem from="1676093976685" duration="382000" />
+      <workItem from="1676190526200" duration="36000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
