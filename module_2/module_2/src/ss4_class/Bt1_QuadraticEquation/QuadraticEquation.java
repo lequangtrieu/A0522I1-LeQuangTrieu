@@ -1,7 +1,9 @@
 package ss4_class.Bt1_QuadraticEquation;
 
 public class QuadraticEquation {
-    private double a, b, c;
+    private final double a;
+    private final double b;
+    private final double c;
 
     public QuadraticEquation(double a, double b, double c) {
         this.a = a;
@@ -26,11 +28,11 @@ public class QuadraticEquation {
     }
 
     public double getRoot1() {
-        return (-b + Math.pow(b*b - (4 * a * c), 0.5)) / (2 * a);
+        return (-b + Math.pow(b * b - (4 * a * c), 0.5)) / (2 * a);
     }
 
     public double getRoot2() {
-        return (-b - Math.pow(b*b - (4 * a * c), 0.5)) / (2 * a);
+        return (-b - Math.pow(b * b - (4 * a * c), 0.5)) / (2 * a);
     }
 
     public double getRoot3() {

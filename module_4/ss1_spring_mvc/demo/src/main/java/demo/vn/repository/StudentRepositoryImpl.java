@@ -10,7 +10,7 @@ import java.util.Map;
 
 @Repository
 public class StudentRepositoryImpl implements StudentRepository{
-    private static Map<String, Student> studentMap;
+    private static final Map<String, Student> studentMap;
 
     static {
         studentMap = new HashMap<>();

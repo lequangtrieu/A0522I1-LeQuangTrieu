@@ -26,3 +26,5 @@ insert into motel values (1,'Lê Khánh', '0931104763', '2022-01-12', 'Có Đi�
 select * from motel;
 
 select * from payment_type;
+
+select * from motel where id like "Bi Peo" or name like "Bi Peo" or phone_number like "Bi Peo";

@@ -57,7 +57,7 @@
             <tr>
                 <th>Note:</th>
                 <td>
-                    <input type="text" name="note" id="note" size="15"/>
+                    <input type="text" name="no te" id="note" size="15"/>
                 </td>
             </tr>
 

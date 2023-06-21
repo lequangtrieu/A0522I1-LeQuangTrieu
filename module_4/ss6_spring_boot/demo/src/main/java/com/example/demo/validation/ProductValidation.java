@@ -1,0 +1,29 @@
+package com.example.demo.validation;
+
+import com.example.demo.model.Product;
+import com.example.demo.service.ProductService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.Errors;
+import org.springframework.validation.Validator;
+
+public class ProductValidation implements Validator {
+    @Autowired
+    ProductService productService;
+    @Override
+    public boolean supports(Class<?> clazz) {
+        return false;
+    }
+
+    @Override
+    public void validate(Object target, Errors errors) {
+        if (!(target instanceof Product)) {
+            return;
+        }
+
+        Product product = (Product) target;
+        if (productService.findById(product.getId()) != null) {
+            errors.rejectValue("id", "Duplicate",
+                    null, "ID bị trùng lặp");
+        }
+    }
+}

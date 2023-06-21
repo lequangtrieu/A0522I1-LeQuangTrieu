@@ -1,8 +1,5 @@
 package ss20_code_fpt.Assignment.service;
 
-import ss20_code_fpt.Assignment.model.Staff;
-
-import java.util.List;
 
 public interface IService {
     void readFile();

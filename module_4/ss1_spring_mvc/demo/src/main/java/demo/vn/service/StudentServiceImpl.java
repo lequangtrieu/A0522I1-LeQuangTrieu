@@ -37,11 +37,11 @@ public class StudentServiceImpl implements StudentService{
         return studentRepository.findAll();
     }
 
-    public StudentRepository getStudentRepository() {
-        return studentRepository;
-    }
-
-    public void setStudentRepository (StudentRepository studentRepository) {
-        this.studentRepository = studentRepository;
-    }
+//    public StudentRepository getStudentRepository() {
+//        return studentRepository;
+//    }
+//
+//    public void setStudentRepository (StudentRepository studentRepository) {
+//        this.studentRepository = studentRepository;
+//    }
 }

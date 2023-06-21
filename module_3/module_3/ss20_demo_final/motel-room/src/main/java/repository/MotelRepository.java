@@ -32,7 +32,6 @@ public class MotelRepository implements IMotelRepository {
             Connection connection = DBConnection.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL_MOTEL);
             ResultSet resultSet = preparedStatement.executeQuery();
-
             while (resultSet.next()) {
                 int id = resultSet.getInt("id");
                 String name = resultSet.getString("name");

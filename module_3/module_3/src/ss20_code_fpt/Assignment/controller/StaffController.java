@@ -4,12 +4,10 @@ import ss20_code_fpt.Assignment.Utils.RegexMenu;
 import ss20_code_fpt.Assignment.service.IService;
 import ss20_code_fpt.Assignment.service.Service;
 
-import java.util.Scanner;
 
 public class StaffController {
 
     private static final IService service = new Service();
-    private static final Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
         while (true) {
             System.out.println("1. Read File");

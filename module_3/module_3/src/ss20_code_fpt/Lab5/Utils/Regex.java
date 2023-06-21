@@ -27,7 +27,7 @@ public class Regex {
         System.out.println("enter name:");
         String name = input.nextLine();
         while (!name.matches(REGEX_NAME)) {
-            System.err.println("You input bad format, please please get back !");
+            System.err.println("You input bad format, please follow the format Sxx!");
             name = input.nextLine();
         }
         return name;
