@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/product/create}" method="post" th:object="${product}">
+  <table class="table table-striped">
+    <tr>
+      <th style="font-size: 150%">Name</th>
+      <td><input type="text" th:field="*{name}" class="form-control" />
+      </td>
+    </tr>
+    <tr>
+      <th style="font-size: 150%">Price</th>
+      <td><input type="text" th:field="*{price}" class="form-control" />
+      </td>
+    </tr>
+    <tr>
+      <th style="font-size: 150%">Quantity</th>
+      <td><input type="text" th:field="*{quantity}" class="form-control" />
+      </td>
+    </tr>
+    <tr>
+      <th style="font-size: 150%">Color</th>
+      <td><input type="text" th:field="*{color}" class="form-control" />
+      </td>
+    </tr>
+    <tr>
+      <th style="font-size: 150%">Category</th>
+      <td class="input-group mb-3">
+        <select th:field="*{category.categoryId}" class="form-control custom-select">
+          <option th:each="c: ${categories}" th:value="${c.categoryId}"
+                  th:text="${c.categoryName}"></option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><input type="reset" value="Reset" class="btn btn-success"></td>
+      <td><input type="submit" value="Create" class="btn btn-primary"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
