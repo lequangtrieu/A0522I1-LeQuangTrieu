@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+<h1 style="text-align: center">Create question</h1>
+
+<form th:action="@{/question/create}" method="post" th:object="${question}">
+    <table class="table table-striped">
+        <tr>
+            <th style="font-size: 150%">Title</th>
+            <td><input type="text" th:field="*{title}" class="form-control" />
+                <span th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <th style="font-size: 150%">Content</th>
+            <td><input type="text" th:field="*{questionContent}" class="form-control" />
+                <span th:if="${#fields.hasErrors('questionContent')}" th:errors="*{questionContent}"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <th style="font-size: 150%">Category</th>
+            <td class="input-group mb-3">
+                <select th:field="*{category.categoryId}" class="form-control custom-select">
+                    <option th:each="c: ${categories}" th:value="${c.categoryId}"
+                            th:text="${c.categoryName}"></option>
+                </select>
+            </td>
+        </tr>
+
+<!--        <tr>-->
+<!--            <th style="font-size: 150%">Date Create</th>-->
+<!--            <td>-->
+<!--                <input type="text" th:field="*{dateCreate}" class="form-control custom-select"/>-->
+<!--                <span th:if="${#fields.hasErrors('dateCreate')}" th:errors="*{dateCreate}"></span>-->
+<!--            </td>-->
+<!--        </tr>-->
+
+        <tr>
+            <td><a th:href="@{/question/list}" class="btn btn-danger">Cancle</a></td>
+            <td><input type="submit" value="Create" class="btn btn-primary"></td>
+        </tr>
+    </table>
+</form>
+
+</body>
+</html>

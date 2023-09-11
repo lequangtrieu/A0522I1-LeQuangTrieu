@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="final-servlet:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/final_servlet_jar</output-path>
+    <root id="archive" name="final-servlet.jar" />
+  </artifact>
+</component>

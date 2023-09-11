@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<h1 style="text-align: center">Question list</h1>
+<h4 th:if="${message != null}" th:text="${message}" style="color: blue"></h4>
+
+<a th:href="@{/question/create}" class="btn btn-primary">
+    <i class="fa fa-plus-circle" aria-hidden="true"></i> Create question
+</a>
+<form class="form-group col-lg-6" th:action="@{/question/searchTitle}" method="get" >
+    <table>
+        <tr>
+            <th>Search By Title:</th>
+            <td><input type="text" name="title1" placeholder="Search by title" class="form-control" th:value="${title1 != null ? title1: ''}"></td>
+            <td><input type="submit" value="Search" class="btn btn-primary"></td>
+        </tr>
+    </table>
+</form>
+
+<form class="form-group col-lg-6" th:action="@{/question/searchAll}" method="get" >
+    <table th:object="${questions}">
+        <tr>
+            <th>Title</th>
+            <td><input type="text" name="title" placeholder="title" class="form-control" th:value="${title != null ? title: ''}"></td>
+
+            <th>CategoryName</th>
+            <td><input type="text" name="categoryName" placeholder="CategoryName" class="form-control" th:value="${categoryName != null ? categoryName: ''}"></td>
+            <td><input type="submit" value="Search" class="btn btn-primary"></td>
+        </tr>
+    </table>
+</form>
+
+<table class="table table-striped" id="dataTable-listStudent">
+    <tr>
+        <th>STT</th>
+        <th>Title</th>
+        <th>QuestionType</th>
+        <th>Date Create</th>
+        <th>Status</th>
+        <th>Action</th>
+    </tr>
+
+    <tr th:each="q, iter: ${questions}" th:object="${q}">
+        <td th:text="${iter.count}"></td>
+        <td th:text="${q.title}"></td>
+        <td th:text="${q.category.categoryName}"></td>
+        <td th:text="${q.dateCreate}"></td>
+<!--        <td th:text="*{#dates.format(dateCreate, 'dd/MM/yyyy')}"></td>-->
+        <td th:text="${q.status}"></td>
+        <td>
+<!--            <button type="button" class="btn btn-success">Update</button>-->
+            <button type="button" onclick="detail()" class="btn btn-info">Detail</button>
+            <a class="btn btn-success" th:href="@{/question/update(id=*{id})}">Update</a>
+            <button th:onclick="setId([[${q.id}]])" type="button"
+                    class="btn btn-info btn btn-danger" data-toggle="modal"
+                    data-target="#myModal">Delete
+            </button>
+        </td>
+    </tr>
+</table>
+
+<!--<div>-->
+<!--    <a th:if="${questions.hasPrevious()}"-->
+<!--       th:href="@{'/question/list'(page=${questions.number})}">Previous</a>-->
+<!--    <span th:text="${questions.number + 1}"></span>/<span th:text="${questions.totalPages}"></span>-->
+<!--    <a th:if="${questions.hasNext()}"-->
+<!--       th:href="@{'/question/list'(page=${questions.number + 2})}">Next</a>-->
+<!--</div>-->
+
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item">
+            <a th:if="${questions.hasPrevious()}"
+               th:href="@{/question/list(size=${questions.size}, page=${questions.getNumber()})}">Previous</a>
+        </li>
+        <li class="page-item">
+            <a th:if="${questions.hasPrevious()}"
+               th:href="@{/question/list(size=${questions.size}, page=${questions.getNumber()})}"
+               th:text="${questions.getNumber()}"></a>
+        </li>
+        <li class="page-item active">
+            <a th:if="${questions.hasNext() || questions.hasPrevious()}"
+               th:href="@{/question/list(size=${questions.size}, page=${questions.getNumber() + 1})}"
+               th:text="${questions.getNumber() + 1}"></a>
+        </li>
+        <li class="page-item">
+            <a th:if="${questions.hasNext()}"
+               th:href="@{/question/list(size=${questions.size}, page=${questions.getNumber() + 2})}"
+               th:text="${questions.getNumber() + 2}"></a>
+        </li>
+        <li class="page-item">
+            <a th:if="${questions.hasNext()}"
+               th:href="@{/question/list(size=${questions.size}, page=${questions.getNumber() + 2})}">Next</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Delete Question</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p>Do you really wanna delete this question</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                <form method="get" id="delete-btn-form">
+                    <a id="btDelete" href="#">
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function setId(id) {
+        // alert(id);
+        btDelete.href = "/question/delete/" + id;
+    }
+
+    function detail() {
+        alert("đây là detail")
+    }
+</script>
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</html>

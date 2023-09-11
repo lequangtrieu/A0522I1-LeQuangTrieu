@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <a th:href="@{/product/create}">Add new product</a>
+
+    <form class="form-group" th:action="@{/product/searchName}" method="get">
+        <table>
+            <tr>
+                <th>Search By Name:</th>
+                <td><input type="text" name="name" placeholder="Search by name" class="form-control" th:value="${name != null ? name: ''}"></td>
+                <td><input type="submit" value="Search" class="btn btn-primary"></td>
+            </tr>
+        </table>
+    </form>
+
+
+    <table class="table table-striped" id="dataTable-listStudent">
+        <tr>
+            <th>Id</th>
+            <th>Choose</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category Name</th>
+            <th>BeginDate</th>
+            <th>EndDate</th>
+            <th>Status</th>
+            <th>Action</th>
+        </tr>
+
+        <tr th:each="p: ${products}" th:object="${p}">
+            <td th:text="${p.id}"></td>
+            <td><input type="checkbox"></td>
+            <td th:text="${p.name}"></td>
+            <td th:text="${p.price}"></td>
+            <td th:text="${p.category.categoryName}"></td>
+            <td th:text="*{#dates.format(beginDate, 'dd/MM/yyyy')}*{beginDate}"></td>
+            <td th:text="*{#dates.format(endDate, 'dd/MM/yyyy')}></td>
+            <td th:text="${p.status}"></td>
+            <td>
+                <a type="button" class="btn btn-success" th:href="@{/product/update(id=${p.id})}">Update</a>
+                <button th:onclick="setId([[${p.id}]])" type="button"
+                        class="btn btn-info btn-lg btn btn-danger" data-toggle="modal"
+                        data-target="#myModal">Delete
+                </button>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>

@@ -57,8 +57,4 @@ public class KhuyenMaiController {
         model.addAttribute("name", name);
         return "view/list";
     }
-
-
-
-
 }

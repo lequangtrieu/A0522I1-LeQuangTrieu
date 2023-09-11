@@ -36,8 +36,8 @@ public class KhuyenMaiController {
     }
 
     @PostMapping("/create")
-    public String doCreate(@Valid @ModelAttribute("km") KhuyenMai km, RedirectAttributes rd,
-                           BindingResult bindingResult, Model model) {
+    public String doCreate(@Valid @ModelAttribute("km") KhuyenMai km, BindingResult bindingResult,
+                           RedirectAttributes rd, Model model) {
         validate.validate(km, bindingResult);
         if (bindingResult.hasErrors()) {
             List<KhuyenMai> khuyenMais = khuyenMaiService.findAll();

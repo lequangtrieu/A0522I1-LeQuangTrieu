@@ -1,11 +1,10 @@
-package com.example.finalexam2.model;
+package com.example.final2.model;
 
 import javax.persistence.*;
 
 @Entity
 public class Product {
     @Id
-    @Column
     @GeneratedValue(strategy=GenerationType.IDENTITY)
     private int id;
     @Column(columnDefinition = "nvarchar(100)")

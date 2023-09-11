@@ -1,12 +1,11 @@
-package com.example.finalexam2.model;
-
-import com.fasterxml.jackson.annotation.JsonBackReference;
+package com.example.final2.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import java.util.List;
+
 @Entity
 public class Category {
     @Id
