@@ -1,0 +1,61 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Other/File.java to edit this template
+ */
+package com.example.fix_demo.model;
+
+import java.io.Serializable;
+
+/**
+ *
+ * @author datqu
+ */
+public class Student implements Serializable {
+
+    private int id;
+    private String name;
+    private String gender;
+    private String dob;
+
+    public Student() {
+    }
+
+public Student(int id, String name, String gender, String dob) {
+        this.id = id;
+        this.name = name;
+        this.gender = gender;
+        this.dob = dob;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getDob() {
+        return dob;
+    }
+
+    public void setDob(String dob) {
+        this.dob = dob;
+    }
+}
