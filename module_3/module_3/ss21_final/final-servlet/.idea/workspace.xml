@@ -5,43 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="398d15cc-c536-4b75-9913-da10a825f36c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_create_list/src/main/java/com/example/demo_create_list/controller/StudentServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_create_list/src/main/java/com/example/demo_create_list/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_create_list/src/main/java/com/example/demo_create_list/service/StudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_create_list/src/main/java/com/example/demo_create_list/service/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_create_list/src/main/webapp/student/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/src/main/java/com/example/fix_demo/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/fix_demo/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_1/demo_show_list_form/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_1/demo_show_list_form/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/conf/Catalina/localhost/ROOT.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/conf/Catalina/localhost/ROOT.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/work/Catalina/localhost/ROOT/SESSIONS.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/work/Catalina/localhost/ROOT/SESSIONS.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/work/Catalina/localhost/ROOT/org/apache/jsp/index_jsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/work/Catalina/localhost/ROOT/org/apache/jsp/list_jsp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/work/Catalina/localhost/ROOT/org/apache/jsp/list_jsp.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_create_list.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_crud_list/src/main/java/controller/StudentServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_crud_list/src/main/java/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_crud_list/src/main/java/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_crud_list/src/main/java/service/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_crud_list/src/main/webapp/student/createUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_crud_list/src/main/webapp/student/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/META-INF/war-tracker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/student/createUpdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/student/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_5/ss3_component/demo-components/app-component/src/components/Welcome.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_5/ss3_component/demo_components_list/my-app/src/components/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo1/.gradle/nb-cache/subprojects.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo1/.gradle/nb-cache/subprojects.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_create_list/src/main/webapp/student/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_create_list/src/main/webapp/student/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_gradle/.gradle/nb-cache/subprojects.ser" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_2/demo_gradle/.gradle/nb-cache/subprojects.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/.idea/module_5.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/project-app/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/project-app/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/project-app/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/project-app/.idea/project-app.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/project-app/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../module_5/project-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/FinalServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/FinalServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +71,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/STUDY/CODEGYM/module_3/module_3/ss21_final/final-servlet&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/STUDY/CODEGYM/module_4/ss16_final_md4/final_md4&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -111,9 +92,15 @@
   <component name="RunManager">
     <configuration name="Tomcat 9.0.71" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.71" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+      <deployment>
+        <artifact name="Gradle : com.example : final-servlet-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="af1ffc16-8ec3-444c-8255-66a23e8a501a" />
+        <option name="BASE_DIRECTORY_NAME" value="e3faf1eb-825f-41c5-adea-c3191022fef0" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -121,7 +108,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="58720" />
+        <option name="DEBUG_PORT" value="54495" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -185,6 +172,9 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.example : final-servlet-1.0-SNAPSHOT.war" />
+        </option>
       </method>
     </configuration>
   </component>
@@ -222,6 +212,9 @@
       <workItem from="1694055783553" duration="625000" />
       <workItem from="1694504157056" duration="76000" />
       <workItem from="1694504514091" duration="1989000" />
+      <workItem from="1694665720527" duration="6733000" />
+      <workItem from="1694756839996" duration="8000" />
+      <workItem from="1694759652984" duration="895000" />
     </task>
     <servers />
   </component>

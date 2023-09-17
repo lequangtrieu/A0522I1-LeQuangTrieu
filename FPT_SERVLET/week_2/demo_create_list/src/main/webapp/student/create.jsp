@@ -33,7 +33,7 @@
         </tr>
         <tr>
             <td> Date of Birth:</td>
-            <td><input type="text" name="dob" value="MM/DD/YYYY" size="15"/></td>
+            <td><input type="text" name="dob" placeholder="MM/DD/YYYY" size="15"/></td>
         </tr>
         </tbody>
     </table>

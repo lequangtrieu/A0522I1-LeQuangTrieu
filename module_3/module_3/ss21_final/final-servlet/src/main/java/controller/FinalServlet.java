@@ -91,6 +91,7 @@ public class FinalServlet extends HttpServlet {
 
         Product product = new Product(id, area, status, floor, roomType, detail, priceRent, dateBegin, dateEnd);
         productRepository.insertProduct(product);
+
         request.getRequestDispatcher("product/create.jsp").forward(request, response);
     }
 
