@@ -28,6 +28,8 @@ dependencies {
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
     // https://mvnrepository.com/artifact/javax.servlet.jsp.jstl/jstl
     implementation group: 'javax.servlet', name: 'jstl', version: '1.2'
+    implementation group: 'org.webjars', name: 'bootstrap', version: '3.3.7'
+//    implementation group: 'org.webjars', name: 'bootstrap', version: '3.3.1'
 }
 
 test {

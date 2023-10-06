@@ -2,6 +2,11 @@ import React, { useState, useEffect } from 'react';
 export function Counter() {
     const [count, setCount] = useState(0);
 
+    // Sử dụng useEffect để theo dõi các thay đổi trong biến count
+    // useEffect(() => {
+    //     document.title = `Số đếm: ${count}`;
+    // }, [count]);
+
 
     // Hàm tăng số đếm khi nút "Tăng" được bấm
     const increment = () => {

@@ -1,0 +1,22 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Nguyen Van A",
+      "gender": 1,
+      "languages": [
+        "JAVA",
+        "C#"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nguyen Van B",
+      "gender": 1,
+      "languages": [
+        "JAVA",
+        "C#"
+      ]
+    }
+  ]
+}
