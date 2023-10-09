@@ -4,6 +4,7 @@ import React from "react";
 import {Create} from "./component/Create";
 import {NavLink,Route, Routes} from "react-router-dom";
 import {List} from "./component/List";
+import {ToastContainer} from "react-toastify";
 
 function App() {
     return (
@@ -15,7 +16,7 @@ function App() {
                 <Route path="/" element={<List/>}></Route>
                 <Route path="/create" element={<Create/>}></Route>
             </Routes>
-            {/*<Create></Create>*/}
+            <ToastContainer/>
         </>
     )
 }

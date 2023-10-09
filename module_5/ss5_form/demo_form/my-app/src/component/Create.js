@@ -5,9 +5,13 @@ import * as Yup from 'yup';
 import {toast, ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 import {Dna} from "react-loader-spinner"
+import axios from "axios";
+import {useNavigate} from "react-router-dom";
+import * as StudentService from "../service/StudentService"
 
 
 export function Create() {
+    const navigate = useNavigate();
     return (
         <>
             <Formik initialValues={{
@@ -21,14 +25,18 @@ export function Create() {
                         name: Yup.string().required('bat buoc nhap')
                     })}
 
-                    onSubmit={(values, {setSubmitting}) => {
-                        setTimeout(() => {
-                            console.log(values);
-                            //call API
-                            setSubmitting(false)
-                            toast("create success")
-                        }, 2000)
-                    }}
+                    onSubmit={
+                        (values, {setSubmitting}) => {
+
+                            const create = async () => {
+                                setSubmitting(false);
+                                await StudentService.save(values);
+                                toast(`Student ${values.name} create okela`);
+                                navigate("/");
+                            }
+                            create();
+                        }
+                    }
             >
                 {
                     ({isSubmitting}) => (
@@ -43,7 +51,7 @@ export function Create() {
                                     </tr>
                                     <tr>
                                         <th>Age:</th>
-                                        <td><Field type="text" namtee='age'/></td>
+                                        <td><Field type="text" name='age'/></td>
                                     </tr>
                                     <tr>
                                         <th>Gender:</th>
@@ -79,7 +87,6 @@ export function Create() {
                                                 />
                                                 :
                                                 <button type='submit'>Submit</button>
-
                                         }
                                     </tr>
                                 </table>
@@ -88,7 +95,6 @@ export function Create() {
                     )
                 }
             </Formik>
-            <ToastContainer/>
         </>
     )
 }
