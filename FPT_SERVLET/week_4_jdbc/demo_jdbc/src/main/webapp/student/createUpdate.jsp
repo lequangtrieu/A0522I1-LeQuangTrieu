@@ -26,10 +26,13 @@
     <input type="hidden" name="action" value="<%= (studentId == null) ? "create" : "update" %>">
 
     <table class="table">
-        <tr>
-            <td> Id:</td>
-            <td><input type="text" name="id" size="50" class="form-control"  value="<c:out value='${student.id}' />"/></td>
-        </tr>
+        <c:if test="${student != null}">
+            <input type="hidden" name="id" value="<c:out value='${student.id}' />"/>
+        </c:if>
+<%--        <tr>--%>
+<%--            <td> Id:</td>--%>
+<%--            <td><input type="text" name="id" size="50" class="form-control"  value="<c:out value='${student.id}' />"/></td>--%>
+<%--        </tr>--%>
         <tr>
             <td> Name:</td>
             <td><input type="text" name="name" size="50" class="form-control" value="<c:out value='${student.name}'/>"/></td>
@@ -38,14 +41,14 @@
         <tr>
             <td> Gender:</td>
             <td>
-                <c:if test="${student.gender == 'F'}">
-                    <input type="radio" name="gender" value="M" /> Male
-                    <input type="radio" name="gender" value="F" checked/> Female
+                <c:if test="${student.gender == 'Female'}">
+                    <input type="radio" name="gender" value="Male" /> Male
+                    <input type="radio" name="gender" value="FemaleF" checked/> Female
                 </c:if>
 
-                <c:if test="${student.gender != 'F'}">
-                    <input type="radio" name="gender" value="M" checked/> Male
-                    <input type="radio" name="gender" value="F" /> Female
+                <c:if test="${student.gender != 'Female'}">
+                    <input type="radio" name="gender" value="Male" checked/> Male
+                    <input type="radio" name="gender" value="Female" /> Female
                 </c:if>
             </td>
 <%--            <td><select name="gender">--%>
@@ -55,7 +58,8 @@
         </tr>
         <tr>
             <td> Date of Birth:</td>
-            <td><input type="text" name="dob" placeholder="MM/DD/YYYY" size="15" class="form-control" value="<c:out value='${student.dob}'/>"/></td>
+            <td><input type="text" name="dob" placeholder="MM/DD/YYYY" size="15" class="form-control"
+                       pattern="^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$" required value="<c:out value='${student.dob}'/>"/></td>
         </tr>
     </table>
     <input type="reset" value="Clear" name="bntClear" class="btn btn-success"/>

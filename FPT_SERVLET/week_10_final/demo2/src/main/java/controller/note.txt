@@ -1,0 +1,5 @@
+USER:  login ==> logout ==> profileController ==> changPassword ==> registerController
+<==>  home ==> menu ==> film ==> chooseShowController ==> chooseSeatController ==> bookingController ==> historyBookingController ==> deleteTicket
+
+USER JSP: loginController ==> loginjsp ==> loginController
+<==> home ==> menuFilm ==> film ==> chooseShowFilm ==> chooseSeat ==> bookingSuccessful ==>

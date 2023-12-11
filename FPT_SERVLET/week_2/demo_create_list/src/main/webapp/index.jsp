@@ -25,12 +25,12 @@
                 <div class="card">
                     <div class="header">
                         <h2>
-                            Create product
+                            List Student
                         </h2>
                     </div>
                     <div class="body table-responsive">
-                        <a th:href="@{/product/list}" class="btn btn-primary btn-custom">
-                            <i class="fa fa-plus-circle" aria-hidden="true"></i> Back to list
+                        <a href="/student/create.jsp" class="btn btn-primary btn-custom">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i> Add new student
                         </a>
                         <table class="table">
                             <thead>

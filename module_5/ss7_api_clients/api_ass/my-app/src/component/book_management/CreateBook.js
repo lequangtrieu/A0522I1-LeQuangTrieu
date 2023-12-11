@@ -4,7 +4,6 @@ import axios from "axios";
 import {Link, useNavigate} from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 
-
 export function CreateBook() {
     const navigate = useNavigate();
     return (
@@ -55,7 +54,6 @@ export function CreateBook() {
                                 <td><input type="submit" className="btn btn-primary"/></td>
                             </tr>
                             </tbody>
-
                         </table>
                     </Form>
                 </div>

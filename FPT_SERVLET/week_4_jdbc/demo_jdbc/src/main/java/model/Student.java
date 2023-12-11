@@ -16,6 +16,12 @@ public class Student {
         this.dob = dob;
     }
 
+    public Student(String name, String gender, String dob) {
+        this.name = name;
+        this.gender = gender;
+        this.dob = dob;
+    }
+
     public int getId() {
         return id;
     }

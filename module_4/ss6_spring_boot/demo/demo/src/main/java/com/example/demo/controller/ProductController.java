@@ -60,9 +60,8 @@ public class ProductController {
     }
 
     @PostMapping("/create")
-    public String doCreate(@Validated @ModelAttribute("product") Product product,
-                           BindingResult bindingResult,
-                           RedirectAttributes rd,Model model) {
+    public String doCreate(@Validated @ModelAttribute("product") Product product, RedirectAttributes rd,
+                           BindingResult bindingResult, Model model) {
         validate.validate(product, bindingResult);
         if (bindingResult.hasErrors()) {
             model.addAttribute("categories", categoryService.findAll());

@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "products": [
+    {
+      "id": 1,
+      "name": "iphone 15",
+      "price": 500,
+      "dateRelease": "18/10/2023",
+      "category": "phone"
+    }
+  ]
+}

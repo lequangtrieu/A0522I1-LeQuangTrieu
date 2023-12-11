@@ -21,7 +21,7 @@
 
 <div align="center">
   <form action="/motel" method="post">
-    <input type="hidden" name="action", value="update">
+    <input type="hidden" name="action" value="update">
     <table border="1", cellpadding="5">
       <h2>Edit</h2>
       <br>

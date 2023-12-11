@@ -1,0 +1,217 @@
+23-Oct-2023 10:09:29.657 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.71
+23-Oct-2023 10:09:29.659 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 9 2023 22:33:01 UTC
+23-Oct-2023 10:09:29.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.71.0
+23-Oct-2023 10:09:29.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+23-Oct-2023 10:09:29.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+23-Oct-2023 10:09:29.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+23-Oct-2023 10:09:29.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_202\jre
+23-Oct-2023 10:09:29.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_202-b08
+23-Oct-2023 10:09:29.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+23-Oct-2023 10:09:29.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71
+23-Oct-2023 10:09:29.660 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71
+23-Oct-2023 10:09:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\logging.properties
+23-Oct-2023 10:09:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Oct-2023 10:09:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|QUANG-TRIEU
+23-Oct-2023 10:09:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+23-Oct-2023 10:09:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Oct-2023 10:09:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+23-Oct-2023 10:09:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71
+23-Oct-2023 10:09:29.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71
+23-Oct-2023 10:09:29.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\temp
+23-Oct-2023 10:09:29.676 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;D:\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ADMIN\AppData\Local\Microsoft\WindowsApps;C:\Users\ADMIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\Azure Data Studio\bin;C:\Users\ADMIN\AppData\Roaming\npm;C:\Program Files\JetBrains\WebStorm 2023.2\bin;C:\Users\ADMIN\AppData\Local\JetBrains\Toolbox\scripts;;.]
+23-Oct-2023 10:09:30.032 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+23-Oct-2023 10:09:30.052 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [610] milliseconds
+23-Oct-2023 10:09:30.085 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+23-Oct-2023 10:09:30.085 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.71]
+23-Oct-2023 10:09:30.097 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\ROOT.xml]
+23-Oct-2023 10:09:30.118 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [] in deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\ROOT.xml] has been ignored
+23-Oct-2023 10:09:30.126 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\ROOT.xml] with an external docBase means the directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\ROOT] in the appBase will be ignored
+23-Oct-2023 10:09:30.656 WARNING [main] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [244] milliseconds.
+23-Oct-2023 10:09:30.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\ROOT.xml] has finished in [580] ms
+23-Oct-2023 10:09:30.676 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\web_demo1.xml]
+23-Oct-2023 10:09:30.678 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/web_demo1] in deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\web_demo1.xml] has been ignored
+23-Oct-2023 10:09:30.684 SEVERE [main] org.apache.catalina.startup.ContextConfig.beforeStart Exception fixing docBase for context [/web_demo1]
+	java.io.FileNotFoundException: D:\STUDY\CODEGYM\FPT_SERVLET\web_demo1\build\exploded\web_demo1-1.0-SNAPSHOT.war (The system cannot find the path specified)
+		at java.io.FileInputStream.open0(Native Method)
+		at java.io.FileInputStream.open(FileInputStream.java:195)
+		at java.io.FileInputStream.<init>(FileInputStream.java:138)
+		at java.io.FileInputStream.<init>(FileInputStream.java:93)
+		at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+		at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+		at org.apache.catalina.startup.ExpandWar.expand(ExpandWar.java:91)
+		at org.apache.catalina.startup.ContextConfig.fixDocBase(ContextConfig.java:821)
+		at org.apache.catalina.startup.ContextConfig.beforeStart(ContextConfig.java:960)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:306)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:182)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+23-Oct-2023 10:09:30.761 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\web_demo1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:729)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:698)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:696)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:112)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:943)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:835)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1393)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1383)
+		at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:134)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:916)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:265)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:430)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:930)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.lang.reflect.Method.invoke(Method.java:498)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@769e7ee8]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4881)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5014)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:726)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [D:\STUDY\CODEGYM\FPT_SERVLET\web_demo1\build\exploded\web_demo1-1.0-SNAPSHOT.war] is not valid
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:777)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:734)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+23-Oct-2023 10:09:31.009 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\web_demo1.xml] has finished in [332] ms
+23-Oct-2023 10:09:31.010 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\docs]
+23-Oct-2023 10:09:31.054 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\docs] has finished in [44] ms
+23-Oct-2023 10:09:31.054 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\examples]
+23-Oct-2023 10:09:31.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\examples] has finished in [671] ms
+23-Oct-2023 10:09:31.725 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\Gradle___com_example___dictionary_1_0_SNAPSHOT_war]
+23-Oct-2023 10:09:31.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\Gradle___com_example___dictionary_1_0_SNAPSHOT_war] has finished in [34] ms
+23-Oct-2023 10:09:31.760 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\host-manager]
+23-Oct-2023 10:09:31.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\host-manager] has finished in [36] ms
+23-Oct-2023 10:09:31.796 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\manager]
+23-Oct-2023 10:09:31.823 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\webapps\manager] has finished in [26] ms
+23-Oct-2023 10:09:31.826 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Oct-2023 10:09:31.846 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1793] milliseconds
+23-Oct-2023 10:09:33.582 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\BookingFilm.xml]
+23-Oct-2023 10:09:33.583 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/BookingFilm] in deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\BookingFilm.xml] has been ignored
+23-Oct-2023 10:09:34.103 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2023 10:09:34.124 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [D:\STUDY\CODEGYM\TOMCAT 9\apache-tomcat-9.0.71\conf\Catalina\localhost\BookingFilm.xml] has finished in [542] ms
+23-Oct-2023 10:09:34.132 INFO [http-nio-8080-exec-3] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/BookingFilm]] after start() had already been called. The second call will be ignored.
+23-Oct-2023 10:09:51.123 SEVERE [http-nio-8080-exec-4] DAO.DBContext.<init> null
+	com.microsoft.sqlserver.jdbc.SQLServerException: The TCP/IP connection to the host DESKTOP-TQLTGJM, port 1433 has failed. Error: "DESKTOP-TQLTGJM. Verify the connection properties. Make sure that an instance of SQL Server is running on the host and accepting TCP/IP connections at the port. Make sure that TCP connections to the port are not blocked by a firewall.".
+		at com.microsoft.sqlserver.jdbc.SQLServerException.makeFromDriverError(SQLServerException.java:191)
+		at com.microsoft.sqlserver.jdbc.SQLServerException.ConvertConnectExceptionToSQLServerException(SQLServerException.java:242)
+		at com.microsoft.sqlserver.jdbc.SocketFinder.findSocket(IOBuffer.java:2369)
+		at com.microsoft.sqlserver.jdbc.TDSChannel.open(IOBuffer.java:551)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectHelper(SQLServerConnection.java:1963)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.login(SQLServerConnection.java:1628)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connectInternal(SQLServerConnection.java:1459)
+		at com.microsoft.sqlserver.jdbc.SQLServerConnection.connect(SQLServerConnection.java:773)
+		at com.microsoft.sqlserver.jdbc.SQLServerDriver.connect(SQLServerDriver.java:1168)
+		at java.sql.DriverManager.getConnection(DriverManager.java:664)
+		at java.sql.DriverManager.getConnection(DriverManager.java:247)
+		at DAO.DBContext.<init>(DBContext.java:26)
+		at DAO.FilmDao.<init>(FilmDao.java:27)
+		at controller.homeController.doGet(homeController.java:63)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:670)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:779)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:177)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:687)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:891)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1784)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Thread.java:748)
+23-Oct-2023 10:25:54.915 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BookingFilm] has started
+23-Oct-2023 10:25:54.923 WARNING [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BookingFilm] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Oct-2023 10:25:54.924 SEVERE [http-nio-8080-exec-4] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@6b6a61d8]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [46ef19d7-cb74-4acc-a8f3-9440f89204b2-0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:25:55.100 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+23-Oct-2023 10:25:55.109 INFO [http-nio-8080-exec-4] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/BookingFilm] is completed
+23-Oct-2023 10:47:33.038 WARNING [main] org.apache.catalina.core.StandardServer.await Invalid shutdown command [] received
+23-Oct-2023 10:48:07.632 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+23-Oct-2023 10:48:07.632 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Oct-2023 10:48:07.759 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+23-Oct-2023 10:48:07.785 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [BookingFilm] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+23-Oct-2023 10:48:07.785 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@74751b3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [17510140-ed25-4eac-bc48-b91185051083-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:48:07.785 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@74751b3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [35ac380e-8e48-407e-a385-bfa7e97ea63b-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:48:07.785 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@74751b3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [07fdd8d8-2abb-4692-9690-b98a58555268-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:48:07.785 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@74751b3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [cbd207f4-8530-4f1a-ae7e-9c955dbd058b-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:48:07.786 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@74751b3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [56bbccf5-246e-4843-8730-6520b3a385b9-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:48:07.786 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@74751b3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [c621e17b-eb17-4185-b70f-52e54b72f2f9-3]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:48:07.786 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@74751b3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [deea8506-1c1b-4a0f-a856-f71f86e94fe4-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:48:07.808 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@74751b3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [3aed5830-b4d2-46e8-a7d9-308427158d4f-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:48:07.808 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [BookingFilm] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@74751b3]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [f35f6b7b-bec0-4a45-aa85-0fd43d28b14a-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+23-Oct-2023 10:48:07.812 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Oct-2023 10:48:07.827 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

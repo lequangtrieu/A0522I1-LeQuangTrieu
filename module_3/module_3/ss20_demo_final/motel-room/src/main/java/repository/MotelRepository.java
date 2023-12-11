@@ -37,7 +37,7 @@ public class MotelRepository implements IMotelRepository {
                 String name = resultSet.getString("name");
                 String phoneNumber = resultSet.getString("phone_number");
                 String dateBegin = resultSet.getString("date_begin");
-                String note = resultSet.getString("note");
+                String note = resultSet.getString("note"    );
                 int idPayment = resultSet.getInt("id_payment");
 
                 Motel motel = new Motel(id, name, phoneNumber, dateBegin, note, idPayment);
