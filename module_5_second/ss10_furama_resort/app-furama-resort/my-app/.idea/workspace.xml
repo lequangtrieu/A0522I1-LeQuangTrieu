@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e8edf9bd-3091-4440-a07f-24b9b32063b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/DAO/BookingDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/DAO/DBContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/DAO/FilmDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/DAO/GenresDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/DAO/MD5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/DAO/SeatDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/DAO/ShowDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/DAO/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/Filter/adminFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/Filter/userFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/ViewMode/FilmSlide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/ViewMode/HistoryBooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/ViewMode/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/CancelPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/DeleteTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/RefundServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/StripeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/SuccessPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/admin/adminDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/admin/createFilmController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/admin/createShowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/admin/manageFilmController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/admin/manageShowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/admin/updateFilmController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/admin/updateShowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/admin/viewFilmController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/bookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/changePassController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/chooseSeatController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/chooseShowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/filmController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/historyBookingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/homeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/loginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/logoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/menuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/profileController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/controller/registerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/Booking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/BookingDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/Genres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/Seat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/Show.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/Slot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/admin/adminDashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/admin/createFilm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/admin/createShow.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/admin/manage_film.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/admin/manage_show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/admin/updateFilm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/admin/updateShow.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/admin/viewFilm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/component/admin_footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/component/admin_header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/component/error404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/component/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/component/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/component/setupCss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/component/setupJS.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/00-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/10773_103_100006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/11005_103_100002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/17OfTgQTlAUx0O18tqJOPz89HuU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/4_Keeping-Up-with-the-Cinema-Cleanliness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/7365240.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/Bullet_Train-757922812-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/MV5BMzkxMDI1ZGEtYmJmNS00NDhlLWEzMjEtYzNmNWQ2Njg2YTI4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/MV5BYTNhYTY5ZDAtYTJkOS00NGQ4LThhNDUtMjM5ZGZmZWM4MGViXkEyXkFqcGdeQXVyMzk2MzYwMg@@._V1_FMjpg_UX1000_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/MV5BYzI0YjYxY2UtNzRjNS00NTZiLTgzMDItNGEzMjU5MmE0ZWJmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/Thor_Love_And_Thunder_logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/avatar-the-way-of-water-ver2-button-1667435596570.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/bigsalad_genavailposter_pay1_presunrise_v3_lg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/cinema.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/describe-your-favorite-movie-avengers-endgame-1024x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/lol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/maxresdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/media_images_2023_02_07_untitled-1-094129-070223-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/movie-night-design-template-eef943492408082d7bbd61673b6f9bf4_screen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/octarender.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/onesheet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/pororo_and_his_best_friends___by_smochdar_dd9pajz-fullview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/rsz_conan_2019_poster_-_final-01_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/sieulua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/images/thegodfather.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/bookingSuccessfull.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/changePassword.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/checkout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/chooseSeat.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/chooseSeatShow.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/chooseShowMovie.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/film.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/loginjsp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/menufilm.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/refund.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/demo_booking_film/demo_booking_film/src/main/webapp/view/user/ticket.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management/product_management/src/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management/product_management/src/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management/product_management/src/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management/product_management/src/service/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management/product_management/src/service/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management_vku/product_management_vku/src/DTO/DBConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management_vku/product_management_vku/src/DTO/ProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management_vku/product_management_vku/src/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management_vku/product_management_vku/src/model/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management_vku/product_management_vku/src/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management_vku/product_management_vku/src/view/AddProductFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management_vku/product_management_vku/src/view/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_2/product_management_vku/product_management_vku/src/view/ProductList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/AdminController/AdminServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/UserController/ViewRoomServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/admin/homePage/homePage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/admin/includes/import-head-admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/admin/includes/sidebar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/user/rooms/bookRoom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/user/rooms/demo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/java/DAO/DBContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/java/DAO/FilmDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/java/controller/HomeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/java/controller/homeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/java/model/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/java/model/Film.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/java/model/Genres.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/component/admin_footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/component/admin_header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/component/error404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/component/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/component/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/component/setupCss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/component/setupJS.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/css/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/00-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/10773_103_100006.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/11005_103_100002.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/17OfTgQTlAUx0O18tqJOPz89HuU.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/4_Keeping-Up-with-the-Cinema-Cleanliness.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/7365240.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/Bullet_Train-757922812-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/MV5BMzkxMDI1ZGEtYmJmNS00NDhlLWEzMjEtYzNmNWQ2Njg2YTI4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/MV5BYTNhYTY5ZDAtYTJkOS00NGQ4LThhNDUtMjM5ZGZmZWM4MGViXkEyXkFqcGdeQXVyMzk2MzYwMg@@._V1_FMjpg_UX1000_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/MV5BYzI0YjYxY2UtNzRjNS00NTZiLTgzMDItNGEzMjU5MmE0ZWJmXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/Thor_Love_And_Thunder_logo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/avatar-the-way-of-water-ver2-button-1667435596570.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/bigsalad_genavailposter_pay1_presunrise_v3_lg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/cinema.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/describe-your-favorite-movie-avengers-endgame-1024x576.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/lol.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/maxresdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/media_images_2023_02_07_untitled-1-094129-070223-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/movie-night-design-template-eef943492408082d7bbd61673b6f9bf4_screen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/octarender.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/onesheet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/pororo_and_his_best_friends___by_smochdar_dd9pajz-fullview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/rsz_conan_2019_poster_-_final-01_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/share.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/sieulua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/images/thegodfather.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_3/ss17_booking_film_management/film_management/src/main/webapp/view/user/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_5/ss11_final_md5/my-app/src/component/footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_5/ss11_final_md5/my-app/src/component/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_5/ss11_final_md5/my-app/src/component/header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_5/ss11_final_md5/my-app/src/component/header/Header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_5/ss11_final_md5/my-app/src/component/products/ProductList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_5/ss11_final_md5/my-app/src/component/products/UpdateProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/HomePage/HomePage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/HomePage/HomePage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customer/CreateCustomer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customer/CustomerList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customer/Test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/customer/ViewDetailCustomer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/footer/Footer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/CustomerService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/service/CustomerTypeService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/img/bibeo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/img/bibeo3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/controller/CustomerTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/model/customer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/model/customer/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/repository/CustomerTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/service/CustomerTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/java/com/example/furama_backend/service/CustomerTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../furama_backend/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../module_6/prototype/demo_nhom_thuoc_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_10_pe_prj/pe_prj/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_10_pe_prj/pe_prj/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_10_pe_prj/pe_prj/src/main/java/controller/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_10_pe_prj/pe_prj/src/main/java/controller/ContactController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_4_jdbc/demo_jdbc_crud/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../FPT_SERVLET/week_4_jdbc/demo_jdbc_crud/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/JDBC/DBConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/controller/Login_LogoutController/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/controller/UserController/ContactServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/controller/UserController/CustomerServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/controller/UserController/EmployeeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/controller/UserController/ServiceServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/controller/UserController/UserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/contact/AttachService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/contact/Contact.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/contact/ContactDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/customer/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/customer/CustomerType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/employee/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/employee/EducationDegree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/employee/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/employee/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/service/RentType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/service/Service.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/service/ServiceType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/model/user/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/ContactDTO/ContactService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/ContactDTO/ContactServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/CustomerDTO/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/CustomerDTO/CustomerServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/EmployeeDTO/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/EmployeeDTO/EmployeeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/ServiceDTO/ServiceDTOService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/ServiceDTO/ServiceDTOServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/UserDTO/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/classes/furama/com/vn/furama_resort/service/UserDTO/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/lib/bootstrap-4.4.1-1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/lib/jquery-3.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/lib/mysql-connector-java-8.0.22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/lib/popper.js-1.14.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/includes/canvas-menu.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/includes/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/includes/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/includes/import-head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/includes/import-script.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/includes/pre-loader.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/Flaticon.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/Magnific-Popup-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/OwlCarousel2-2.3.4.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/SlickNav-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/bootstrap-4.4.1-dist.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/elegant_font.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/font-awesome-4.7.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/jquery-nice-select-1.1.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/jquery-ui-1.12.1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/Source/sass.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/elegant-icons.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/jquery-ui.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/nice-select.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/slicknav.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/ElegantIcons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/ElegantIcons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/ElegantIcons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/ElegantIcons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/about/about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/about/about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/about/about-p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/about/about-p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/about/about-p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/bibeo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/bibeo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/bibeo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-details/avatar/avatar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-details/avatar/avatar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-details/avatar/avatar-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-details/blog-details-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-details/blog-details-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-details/blog-details-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-details/blog-details-hero.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/blog/blog-wide.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/flag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/footer-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/furama_logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/gallery/gallery-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/gallery/gallery-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/gallery/gallery-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/gallery/gallery-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/hero/hero-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/hero/hero-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/hero/hero-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/avatar/avatar-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/avatar/avatar-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-b4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/room/room-details.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/services/s-icon-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/testimonial-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/img/video-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/js/jquery-ui.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/js/jquery.nice-select.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/js/jquery.slicknav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/static/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/view/contact/contactList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/view/customer/customerList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/view/employee/employeeList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/view/login-logout/demo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/view/login-logout/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/view/service/createService.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/view/service/serviceList.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../TOMCAT 9/apache-tomcat-9.0.71/webapps/ROOT/view/user/userPage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/module_3/ss20_demo_final/motel-room/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/module_3/ss20_demo_final/motel-room/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/module_3/ss21_final/final-servlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/module_3/ss21_final/final-servlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/module_3/ss21_final/final-servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/module_3/ss21_final/final-servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/Login_LogoutController/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/Login_LogoutController/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/UserController/ContactServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/AdminController/ContactServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/UserController/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/AdminController/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/UserController/EmployeeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/AdminController/EmployeeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/UserController/ServiceServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/AdminController/ServiceServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/UserController/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/controller/UserController/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/model/service/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/model/service/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/service/ServiceDTO/ServiceDTOServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/java/furama/com/vn/furama_resort/service/ServiceDTO/ServiceDTOServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/includes/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/includes/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-b1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-b2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-b3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-b4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/static/img/room/room-details.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/contact/contactList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/admin/contact/contactList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/customer/customerList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/admin/customer/customerList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/employee/employeeList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/admin/employee/employeeList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/login-logout/demo.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/service/createService.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/admin/service/createService.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/service/serviceList.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/admin/service/serviceList.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/user/userPage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_3/ss16_case_study_jsp_servlet/furama_resort/src/main/webapp/view/user/userPage/userPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_4/ss6_spring_boot/demo/demo/src/main/java/com/example/demo/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_4/ss6_spring_boot/demo/demo/src/main/java/com/example/demo/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_4/ss6_spring_boot/demo/demo/src/main/java/com/example/demo/repo/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_4/ss6_spring_boot/demo/demo/src/main/java/com/example/demo/repo/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../module_5/ss7_api_clients/api_ass/my-app/src/component/book_management/BookList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../module_5/ss7_api_clients/api_ass/my-app/src/component/book_management/BookList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../property_html/css/images/ui-icons_444444_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../property_html/css/images/ui-icons_555555_256x240.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../property_html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../property_html/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="2eOoWh0Xk1O8eliaW75t54zpRN5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/STUDY/CODEGYM/module_5_second/ss10_furama_resort/app-furama-resort",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8edf9bd-3091-4440-a07f-24b9b32063b4" name="Changes" comment="" />
+      <created>1711785018514</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711785018514</updated>
+      <workItem from="1711785019595" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,48 @@
+title Create Drug Group
+
+
+actor Manager
+participant View
+participant DrugGroupController
+
+
+participant DrugGroupService
+
+participant DrugGroupRepository
+database Database
+
+
+Manager -> View:1. Request to create a new drug group
+activate View
+Manager -> View:2. Select button "Add new drug group"
+View -> DrugGroupController: 3. createDrugGroup()
+activate DrugGroupController
+DrugGroupController -> DrugGroupService: 4.createDrugGroup()
+activate DrugGroupService
+
+
+alt Failure
+DrugGroupService --> DrugGroupController: 5.1. Return failure status
+space
+DrugGroupController --> View: 5.2. Return failure status
+View --> Manager: Invalid
+
+else Success
+DrugGroupService -> DrugGroupRepository: 6.save()
+activate DrugGroupRepository
+
+Database <- DrugGroupRepository: 7. executeUpdate()
+activate Database
+Database --> DrugGroupRepository: 8. Return result
+deactivate Database
+DrugGroupService <-- DrugGroupRepository: 9. Return result
+deactivate DrugGroupRepository
+DrugGroupService --> DrugGroupController: 10. Return result
+deactivate DrugGroupService
+DrugGroupController --> View: 11. Return result
+deactivate DrugGroupController
+View --> Manager: 12. Display message create successfully
+deactivate View
+end
+
+

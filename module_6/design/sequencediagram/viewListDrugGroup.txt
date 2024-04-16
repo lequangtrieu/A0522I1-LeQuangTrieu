@@ -1,0 +1,38 @@
+title viewListDrugGroup
+
+actor Manager
+participant View
+participant DrugGroupController
+participant DrugGroupService
+participant DrugGroupRepository
+database Database
+
+Manager -> View: 1.Request to view drug groups
+activate View
+
+View -> DrugGroupController: 2.Send request to view drug groups
+activate DrugGroupController
+
+DrugGroupController -> DrugGroupService: 3.Retrieve drug groups data
+activate DrugGroupService
+
+DrugGroupService -> DrugGroupRepository: 4.Query drug groups data
+activate DrugGroupRepository
+
+DrugGroupRepository -> Database: 5.Execute query to fetch drug groups
+activate Database
+
+Database --> DrugGroupRepository: 6.Return drug groups data
+deactivate Database
+
+DrugGroupRepository --> DrugGroupService: 7.Return drug groups data
+deactivate DrugGroupRepository
+
+DrugGroupService --> DrugGroupController: 8.Return drug groups data
+deactivate DrugGroupService
+
+DrugGroupController --> View: 9.Return drug groups data
+deactivate DrugGroupController
+
+View --> Manager: 10.Display drug groups data
+deactivate View

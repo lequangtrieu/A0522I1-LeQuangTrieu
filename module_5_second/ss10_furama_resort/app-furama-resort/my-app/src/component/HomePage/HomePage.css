@@ -1,0 +1,15 @@
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+/* HomePage.css */
+.image-content {
+    font-size: 25px;
+    color: #333333;
+    font-weight: bold;
+}
+

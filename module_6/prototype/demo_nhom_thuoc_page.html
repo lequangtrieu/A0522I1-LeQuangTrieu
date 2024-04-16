@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <title>Quản lý nhóm thuốc</title>
+    <style>
+        .btn-custom {
+            background-color: #123456;
+            color: #ffffff;
+        }
+        legend {
+            all: revert;
+        }
+    </style>
+</head>
+<body style="padding: 20px">
+<div class="container">
+    <h1 class="text-center bg-primary">Nhóm thuốc</h1>
+    <!-- Danh sách nhóm thuốc -->
+    <fieldset class="border border-dark border-3 rounded-3 p-3 mt-4">
+        <legend><h2>Danh sách nhóm thuốc</h2></legend>
+        <table class="table table-bordered">
+            <thead>
+            <tr>
+                <th class="bg-primary text-light">Mã nhóm thuốc</th>
+                <th class="bg-primary text-light">Tên nhóm thuốc</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr data-group-id="1" onclick="selectRow(this)">
+                <td>1</td>
+                <td>Nhóm A</td>
+            </tr>
+            <tr data-group-id="2" onclick="selectRow(this)">
+                <td>2</td>
+                <td>Nhóm B</td>
+            </tr>
+            <tr data-group-id="3" onclick="selectRow(this)">
+                <td>3</td>
+                <td>Nhóm C</td>
+            </tr>
+            <!-- Thêm các dòng khác nếu cần -->
+            </tbody>
+        </table>
+    </fieldset>
+    <!-- Thông tin nhóm thuốc -->
+    <fieldset class="border border-dark border-3 rounded-3 p-3 mt-4">
+        <legend><h2>Thông tin nhóm thuốc</h2></legend>
+        <form>
+            <div class="mb-3">
+                <label for="groupId" class="form-label">Mã nhóm thuốc</label>
+                <input type="text" class="form-control" id="groupId" readonly>
+            </div>
+            <div class="mb-3">
+                <label for="groupName" class="form-label">Tên nhóm thuốc</label>
+                <input type="text" class="form-control" id="groupName">
+            </div>
+            <button type="submit" class="btn btn-primary">Lưu</button>
+        </form>
+    </fieldset>
+
+    <!-- Các nút điều khiển -->
+    <div class="my-3" style="text-align: right">
+        <button class="btn btn-success" id="addBtn"><i class="bi bi-plus-circle"></i> Thêm</button>
+        <button class="btn btn-custom" id="editBtn"><i class="bi bi-pencil-square"></i> Sửa</button>
+        <button class="btn btn-danger" id="deleteBtn"><i class="bi bi-x-circle"></i> Xóa</button>
+        <button class="btn btn-primary" id="backBtn"><i class="bi bi-arrow-return-left"></i> Trở về</button>
+    </div>
+
+
+
+    <!-- Modal Thêm -->
+    <div class="modal fade" id="addModal" tabindex="-1" aria-labelledby="addModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addModalLabel">Thêm mới nhóm thuốc</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="newGroupName" class="form-label">Tên nhóm thuốc</label>
+                            <input type="text" class="form-control" id="newGroupName" required>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                    <button type="button" class="btn btn-primary" id="saveNewGroupBtn">Lưu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Xóa -->
+    <div class="modal fade" id="deleteModal" tabindex="-1" aria-labelledby="deleteModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Xóa nhóm thuốc</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Bạn có chắc chắn muốn xóa nhóm thuốc không</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    // update nhóm thuốc
+    var selectedRow = null;
+
+    function selectRow(row) {
+        console.log(row)
+        if (selectedRow) {
+            selectedRow.classList.remove("table-active");
+        }
+
+        selectedRow = row;
+        selectedRow.classList.add("table-active");
+
+        // Update the information below the table
+        var groupId = selectedRow.getAttribute("data-group-id");
+        var groupName = selectedRow.cells[1].innerText;
+
+        document.getElementById("groupId").value = groupId;
+        document.getElementById("groupName").value = groupName;
+
+        // Enable the "Sửa" (Edit) button
+        document.getElementById("editBtn").disabled = false;
+    }
+    document.addEventListener("DOMContentLoaded", function () {
+
+        // Add click event listener to the "Thêm" (Add) button
+        var addBtn = document.getElementById("addBtn");
+        addBtn.addEventListener("click", function () {
+            // Show the "Thêm mới nhóm thuốc" modal
+            var addModal = new bootstrap.Modal(document.getElementById('addModal'));
+            addModal.show();
+        });
+
+        // Add click event listener to the "Lưu" (Save) button in "Thêm mới nhóm thuốc" modal
+        var saveNewGroupBtn = document.getElementById("saveNewGroupBtn");
+        saveNewGroupBtn.addEventListener("click", function () {
+            // Add your logic to save the new group here
+            // For example, you can retrieve the input value and update the table
+            var newGroupName = document.getElementById("newGroupName").value;
+            // Update the table or perform other actions as needed
+
+            // Close the "Thêm mới nhóm thuốc" modal
+            var addModal = new bootstrap.Modal(document.getElementById('addModal'));
+            addModal.hide();
+        });
+
+        // Get references to the delete button and the modal
+        var deleteBtn = document.getElementById("deleteBtn");
+        var deleteModal = new bootstrap.Modal(document.getElementById('deleteModal'));
+
+        // Add click event listener to the delete button
+        deleteBtn.addEventListener("click", function () {
+            // Show the delete confirmation modal
+            deleteModal.show();
+        });
+
+        // Optionally, you can add event listeners to handle other modal actions
+        // For example, closing the modal when the "Close" button is clicked
+        var closeModalBtn = document.querySelector('#deleteModal .btn-secondary');
+        closeModalBtn.addEventListener("click", function () {
+            // Close the modal
+            deleteModal.hide();
+        });
+
+
+
+        // Add click event listener to the "Sửa" (Edit) button
+        var editBtn = document.getElementById("editBtn");
+        editBtn.addEventListener("click", function () {
+            // Show the "Sửa nhóm thuốc" modal
+            var editModal = new bootstrap.Modal(document.getElementById('editModal'));
+            editModal.show();
+        });
+
+        // Add click event listener to the "Lưu" (Save) button in "Sửa nhóm thuốc" modal
+        var saveEditGroupBtn = document.getElementById("saveEditGroupBtn");
+        saveEditGroupBtn.addEventListener("click", function () {
+            // Add your logic to save the edited group here
+            // For example, you can retrieve the input value and update the table
+            var editGroupName = document.getElementById("editGroupName").value;
+            // Update the table or perform other actions as needed
+
+            // Close the "Sửa nhóm thuốc" modal
+            var editModal = new bootstrap.Modal(document.getElementById('editModal'));
+            editModal.hide();
+        });
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

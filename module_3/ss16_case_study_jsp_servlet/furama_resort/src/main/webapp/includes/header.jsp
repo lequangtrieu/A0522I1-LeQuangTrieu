@@ -42,7 +42,8 @@
                 <div class="col-lg-2">
                     <div class="col-lg-2">
                         <div class="logo">
-                            <h2>BIBEO RESORT</h2>
+                            <a href="/"><h2>BIBEO RESORT</h2></a>
+
                             <%--                            <a href="./index.html">--%>
                             <%--                                <img src="../static/img/logo.png" alt="">--%>
                             <%--                            </a>--%>
@@ -55,8 +56,8 @@
                         <nav class="mainmenu">
                             <ul>
                                 <li class="active"><a href="/">Home</a></li>
-                                <li><a href="/employee?action=listEmployee">Employee</a></li>
-                                <li><a href="/customer?action=listCustomer">Customer</a></li>
+                                <li><a href="/employee?action=listEmployee">Introduction</a></li>
+                                <li><a href="/customer?action=listCustomer">Foods</a></li>
                                 <%--                <li><a href="./pages.html">Pages</a>--%>
                                 <%--                  <ul class="dropdown">--%>
                                 <%--                    <li><a href="./room-details.html">Room Details</a></li>--%>
@@ -65,8 +66,8 @@
                                 <%--                    <li><a href="#">Premium Room</a></li>--%>
                                 <%--                  </ul>--%>
                                 <%--                </li>--%>
-                                <li><a href="/service?action=listService">Service</a></li>
-                                <li><a href="/contact?action=listContact">Contact</a></li>
+                                <li><a href="/viewRoom">Rooms</a></li>
+                                <li><a href="/contact?action=listContact">Voucher</a></li>
                             </ul>
                         </nav>
                         <div class="nav-right search-switch">

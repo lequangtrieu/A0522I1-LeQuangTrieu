@@ -1,0 +1,155 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "Comic Book",
+      "detail": "book about story",
+      "dateRelease": "2000-03-12"
+    },
+    {
+      "id": 2,
+      "title": "Fairy tale Book",
+      "detail": "book about story not real",
+      "dateRelease": "11/07/2010"
+    },
+    {
+      "id": 2,
+      "title": "Novel Book",
+      "detail": "book about story for love",
+      "dateRelease": "19/02/2016"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "name": "TrieuLQ",
+      "gender": 1,
+      "birthday": "2000-03-12",
+      "idCard": "205123456",
+      "languages": [
+        "JAVA",
+        "C#"
+      ],
+      "classroom": {
+        "id": 1,
+        "classroomName": "SE17C01"
+      }
+    },
+    {
+      "id": 2,
+      "name": "ChinhTD",
+      "gender": 1,
+      "birthday": "2000-03-12",
+      "idCard": "205123456",
+      "languages": [
+        "JAVA"
+      ],
+      "classroom": {
+        "id": 1,
+        "classroomName": "SE17C01"
+      }
+    },
+    {
+      "name": "KhanhHNB",
+      "gender": 0,
+      "birthday": "2000-03-12",
+      "idCard": "205123456",
+      "languages": [
+        "C#",
+        "JAVA",
+        "ReactJs"
+      ],
+      "id": 3,
+      "classroom": {
+        "id": 3,
+        "classroomName": "SE17C03"
+      }
+    },
+    {
+      "name": "Trieu Le Quang",
+      "gender": 0,
+      "birthday": "2000-03-12",
+      "idCard": "205123789",
+      "languages": [
+        "JAVA"
+      ],
+      "id": 4,
+      "classroom": {
+        "id": 1,
+        "classroomName": "SE17C01"
+      }
+    },
+    {
+      "name": "HaiTT",
+      "gender": 1,
+      "birthday": "2000-03-12",
+      "idCard": "204126879",
+      "languages": [
+        "C#",
+        "JAVA"
+      ],
+      "id": 5,
+      "classroom": {
+        "id": 2,
+        "classroomName": "SE17C02"
+      }
+    },
+    {
+      "name": "HanNV",
+      "gender": 0,
+      "birthday": "2000-03-12",
+      "idCard": "205452145",
+      "languages": [
+        "JAVA",
+        "ReactJs",
+        "C#"
+      ],
+      "id": 6,
+      "classroom": {
+        "id": 1,
+        "classroomName": "SE17C01"
+      }
+    },
+    {
+      "name": "aaaaa",
+      "gender": 0,
+      "birthday": "2000-03-12",
+      "idCard": "123432123",
+      "languages": [
+        "JAVA",
+        "C#"
+      ],
+      "id": 7,
+      "classroom": {
+        "id": 2,
+        "classroomName": "SE17C02"
+      }
+    },
+    {
+      "name": "aaaa",
+      "gender": 0,
+      "birthday": "2020-02-05",
+      "idCard": "205452145",
+      "languages": [
+        "C#",
+        "JAVA"
+      ],
+      "classroom": {},
+      "id": 8
+    }
+  ],
+  "classrooms": [
+    {
+      "id": 1,
+      "classroomName": "SE17C01"
+    },
+    {
+      "id": 2,
+      "classroomName": "SE17C02"
+    },
+    {
+      "id": 3,
+      "classroomName": "SE17C03"
+    }
+  ]
+}

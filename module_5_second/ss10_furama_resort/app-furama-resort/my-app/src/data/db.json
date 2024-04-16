@@ -1,0 +1,138 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "Customer 1",
+      "gender": 1,
+      "birthday": "12/05/2000",
+      "idCard": "555555555",
+      "phone": "0123456789",
+      "email": "customer1@email.com",
+      "address": "789 Oak St",
+      "customerType": {
+        "id": 1,
+        "name": "DIAMOND"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Customer 2",
+      "gender": 1,
+      "birthday": "12/05/2000",
+      "idCard": "555555555",
+      "phone": "0123456789",
+      "email": "customer1@email.com",
+      "address": "789 Oak St",
+      "customerType": {
+        "id": 2,
+        "name": "PLATINUM"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Customer 3",
+      "gender": 1,
+      "birthday": "12/05/2000",
+      "idCard": "555555555",
+      "phone": "0123456789",
+      "email": "customer1@email.com",
+      "address": "789 Oak St",
+      "customerType": {
+        "id": 5,
+        "name": "MEMBER"
+      }
+    },
+    {
+      "name": "Customer 4",
+      "gender": 1,
+      "birthday": "14/08/1995",
+      "idCard": "123456789",
+      "phone": "09542136",
+      "email": "t3@gmail.com",
+      "address": "Da Nang",
+      "customerType": {
+        "id": 4,
+        "name": "SILVER"
+      },
+      "id": 4
+    },
+    {
+      "name": "trieu",
+      "gender": 0,
+      "birthday": "asf",
+      "idCard": "as",
+      "phone": "fsafs",
+      "email": "asfsf",
+      "address": "fsafs",
+      "customerType": {
+        "id": 3,
+        "name": "GOLD"
+      },
+      "id": 5
+    },
+    {
+      "name": "aaa",
+      "gender": 0,
+      "birthday": "14/08/1997",
+      "idCard": "saf",
+      "phone": "(201) 555-4625",
+      "email": "sahghk",
+      "address": "usa",
+      "customerType": {
+        "id": 3,
+        "name": "GOLD"
+      },
+      "id": 6
+    },
+    {
+      "name": "Trieu Le Quang edit",
+      "gender": 1,
+      "birthday": "12/02/2006",
+      "idCard": "2054521456",
+      "phone": "(201) 555-4625",
+      "email": "t3@gmail.com",
+      "address": "QN",
+      "customerType": {
+        "id": 2,
+        "name": "PLATINUM"
+      },
+      "id": 7
+    },
+    {
+      "name": "John",
+      "gender": 1,
+      "birthday": "14/08/1995",
+      "idCard": "2054521456",
+      "phone": "aaa",
+      "email": "trieulqde160447@fpt.edu.vn",
+      "address": "ss",
+      "customerType": {
+        "id": 5,
+        "name": "MEMBER"
+      },
+      "id": 8
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "DIAMOND"
+    },
+    {
+      "id": 2,
+      "name": "PLATINUM"
+    },
+    {
+      "id": 3,
+      "name": "GOLD"
+    },
+    {
+      "id": 4,
+      "name": "SILVER"
+    },
+    {
+      "id": 5,
+      "name": "MEMBER"
+    }
+  ]
+}

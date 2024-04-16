@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;
 
-public interface ProductRepository extends JpaRepository<Product, Integer> {
+public interface ProductRepository extends JpaR1epository<Product, Integer> {
     List<Product> findAllByNameContaining(String name);
 
     List<Product> findAllByCategoryContaining(String cateName);

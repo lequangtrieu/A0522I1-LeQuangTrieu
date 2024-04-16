@@ -58,27 +58,6 @@ export function BookList() {
 
 
 
-
-
-
-
-
-
-    // useEffect(() => {
-    //     const fetchApi = async () => {
-    //         try {
-    //             const result = await axios.get('http://localhost:8080/books', {
-    //                 params: {
-    //                     title: searchKeyword // Truyền từ khóa tìm kiếm vào API
-    //                 }
-    //             });
-    //             setBooks(result.data);
-    //         } catch (e) {
-    //             console.log(e)
-    //         }
-    //     };
-    //     fetchApi();
-    // }, [searchKeyword]); // Theo dõi sự thay đổi của searchKeyword, không phải books
     return (
         <>
 

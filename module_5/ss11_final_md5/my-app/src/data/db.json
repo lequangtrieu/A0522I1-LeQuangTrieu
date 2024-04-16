@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ip15 ",
+      "dateRelease": "03/04/2015",
+      "quantity": "23",
+      "productType": {
+        "productTypeId": 2,
+        "productTypeName": "type 2"
+      }
+    },
+    {
+      "id": 2,
+      "name": "ip12",
+      "dateRelease": "12/08/2002",
+      "quantity": "14",
+      "productType": {
+        "productTypeId": 3,
+        "productTypeName": "type 3"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Ip15 promax",
+      "dateRelease": "15/10/2023",
+      "quantity": 5,
+      "productType": {
+        "productTypeId": 2,
+        "productTypeName": "type 2"
+      }
+    },
+    {
+      "id": 4,
+      "name": "laptop asus",
+      "dateRelease": "15/10/2021",
+      "quantity": "45",
+      "productType": {
+        "productTypeId": 1,
+        "productTypeName": "type 1"
+      }
+    },
+    {
+      "id": 5,
+      "name": "tivi lg",
+      "dateRelease": "02/01/2015",
+      "quantity": "32",
+      "productType": {
+        "productTypeId": 2,
+        "productTypeName": "type 2"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Ip14 pro",
+      "dateRelease": "03/04/2012",
+      "quantity": "43",
+      "productType": {
+        "productTypeId": 3,
+        "productTypeName": "type 3"
+      }
+    }
+  ],
+  "productType": [
+    {
+      "productTypeId": 1,
+      "productTypeName": "type 1"
+    },
+    {
+      "productTypeId": 2,
+      "productTypeName": "type 2"
+    },
+    {
+      "productTypeId": 3,
+      "productTypeName": "type 3"
+    }
+  ]
+}

@@ -124,6 +124,7 @@ public class ServiceDTOServiceImpl implements ServiceDTOService{
         Service service = new Service();
         service.setServiceId(resultSet.getInt("service_id"));
         service.setServiceName(resultSet.getString("service_name"));
+        service.setServiceImg(resultSet.getString("service_img"));
         service.setServiceArea(resultSet.getInt("service_area"));
         service.setServiceCost(resultSet.getDouble("service_cost"));
         service.setServiceMaxPeople(resultSet.getInt("service_max_people"));

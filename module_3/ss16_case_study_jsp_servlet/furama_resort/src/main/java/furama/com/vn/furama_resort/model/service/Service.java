@@ -3,6 +3,7 @@ package furama.com.vn.furama_resort.model.service;
 public class Service {
     private Integer serviceId;
     private String serviceName;
+    private String serviceImg;
     private Integer serviceArea;
     private Double serviceCost;
     private Integer serviceMaxPeople;
@@ -16,12 +17,13 @@ public class Service {
     public Service() {
     }
 
-    public Service(Integer serviceId, String name, Integer area, Double cost, Integer maxPeople, String standardRoom, String descriptionOtherConvenience, Double poolArea, Integer numberOfFloors, Integer serviceTypeId, Integer rentTypeId) {
+    public Service(Integer serviceId, String serviceName, String serviceImg, Integer serviceArea, Double serviceCost, Integer serviceMaxPeople, String standardRoom, String descriptionOtherConvenience, Double poolArea, Integer numberOfFloors, Integer serviceTypeId, Integer rentTypeId) {
         this.serviceId = serviceId;
-        this.serviceName = name;
-        this.serviceArea = area;
-        this.serviceCost = cost;
-        this.serviceMaxPeople = maxPeople;
+        this.serviceName = serviceName;
+        this.serviceImg = serviceImg;
+        this.serviceArea = serviceArea;
+        this.serviceCost = serviceCost;
+        this.serviceMaxPeople = serviceMaxPeople;
         this.standardRoom = standardRoom;
         this.descriptionOtherConvenience = descriptionOtherConvenience;
         this.poolArea = poolArea;
@@ -30,8 +32,9 @@ public class Service {
         this.rentTypeId = rentTypeId;
     }
 
-    public Service(String serviceName, Integer serviceArea, Double serviceCost, Integer serviceMaxPeople, String standardRoom, String descriptionOtherConvenience, Double poolArea, Integer numberOfFloors, Integer serviceTypeId, Integer rentTypeId) {
+    public Service(String serviceName, String serviceImg, Integer serviceArea, Double serviceCost, Integer serviceMaxPeople, String standardRoom, String descriptionOtherConvenience, Double poolArea, Integer numberOfFloors, Integer serviceTypeId, Integer rentTypeId) {
         this.serviceName = serviceName;
+        this.serviceImg = serviceImg;
         this.serviceArea = serviceArea;
         this.serviceCost = serviceCost;
         this.serviceMaxPeople = serviceMaxPeople;
@@ -57,6 +60,14 @@ public class Service {
 
     public void setServiceName(String serviceName) {
         this.serviceName = serviceName;
+    }
+
+    public String getServiceImg() {
+        return serviceImg;
+    }
+
+    public void setServiceImg(String serviceImg) {
+        this.serviceImg = serviceImg;
     }
 
     public Integer getServiceArea() {

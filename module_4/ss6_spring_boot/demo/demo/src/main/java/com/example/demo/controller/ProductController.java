@@ -35,7 +35,7 @@ public class ProductController {
 
     @GetMapping("/list2")
     public String showList(Model model) {
-        model.addAttribute("products", productService.findAll());
+        model.addAttribute("products", productServicưe.findAll());
         return "/view/product/list2";
     }
 

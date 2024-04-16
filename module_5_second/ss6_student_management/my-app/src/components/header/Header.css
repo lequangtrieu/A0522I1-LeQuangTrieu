@@ -1,0 +1,45 @@
+/* Header.css */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #333333;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    margin-right: 25px;
+    color: #333333;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.btn-login {
+    margin-right: 15px;
+}
+
+.btn-signup {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-login,
+.btn-signup {
+    font-size: 1rem;
+    padding: 8px 20px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:active {
+    font-weight: bold;
+    /* Thay đổi các thuộc tính CSS khác để tương thích với thiết kế của bạn */
+}
